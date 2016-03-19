@@ -54,7 +54,12 @@
         </div>
 
 
-
+        <div class="container">
+	<div class="row">
+		<h2>test calender</h2>
+        <iframe src="https://www.google.com/calendar/embed?mode=WEEK&height=600&wkst=1&bgcolor=%23FFFFFF&src=bikamek1%40gmail.com&color=%232952A3&ctz=America%2FToronto" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	</div>
+</div>
 
     </form>
 </body>
