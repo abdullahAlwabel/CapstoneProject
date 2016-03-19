@@ -65,7 +65,6 @@
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
-    <Content Include="Department Program.aspx" />
     <Content Include="Export.aspx" />
     <Content Include="ExportContentPage.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -75,7 +74,6 @@
     <Content Include="js\jquery-2.2.0.min.js" />
     <Content Include="js\npm.js" />
     <Content Include="Login.aspx" />
-    <Content Include="Publication.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Home.aspx" />
     <Content Include="CreateActivity.aspx" />

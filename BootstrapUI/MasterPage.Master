@@ -6,20 +6,30 @@
 <head runat="server">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
-        <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
-        <script src="js/bootstrap.min.js"></script>
-
     </asp:ContentPlaceHolder>
-
 </head>
+      <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+       <link href="css/bootstrap.min.css" rel="stylesheet" />
+       <script src="js/bootstrap.min.js"></script>
 <body>
     <form id="form1" runat="server">
-          <h1>testing</h1>
+       <nav>
+       <ul class=" nav nav-justified">
+           <li class="active""><a class="navbar-brand"  href="#">CAT</a> </li>
+           <li><a href="#">Link</a> </li>
+           <li><a href="#">Link</a></li>
+           <li><a href="#">Link</a></li>
+           <li><a href="#">Link</a></li>
+           <li><a href="#">Link</a></li>
+       </ul>
+   </nav>
+
     <%--This is where your content pages will be loaded onto--%>
         <div class="container">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-      
+            <div class="container">
+
+            </div>
         </asp:ContentPlaceHolder>
     </div>
     </form>
