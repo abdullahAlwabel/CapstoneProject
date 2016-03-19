@@ -59,13 +59,19 @@
   <ItemGroup>
     <Content Include="Activites.aspx" />
     <Content Include="Adminstration.aspx" />
+<<<<<<< HEAD
     <Content Include="AttendanceInformation.aspx" />
     <Content Include="CommitteeWork.aspx" />
     <Content Include="Consultation.aspx" />
+=======
+    <Content Include="Committee Work.aspx" />
+    <Content Include="Conference Presentations.aspx" />
+>>>>>>> origin/master
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="Department Program.aspx" />
     <Content Include="Export.aspx" />
     <Content Include="ExportContentPage.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -75,7 +81,9 @@
     <Content Include="js\jquery-2.2.0.min.js" />
     <Content Include="js\npm.js" />
     <Content Include="Login.aspx" />
+    <Content Include="Publication.aspx" />
     <Content Include="StyleSheet1.css" />
+<<<<<<< HEAD
     <Content Include="Home.aspx" />
     <Content Include="CreateActivity.aspx" />
     <Content Include="CollectFeedback.aspx" />
@@ -84,6 +92,9 @@
     <Content Include="PublicationDetails.aspx" />
     <Content Include="SwipeScreen.aspx" />
     <Content Include="WorkshopDetails.aspx" />
+=======
+    <Content Include="Workshop.aspx" />
+>>>>>>> origin/master
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activites.aspx.cs">
@@ -107,6 +118,7 @@
     <Compile Include="Adminstration.aspx.designer.cs">
       <DependentUpon>Adminstration.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="AttendanceInformation.aspx.cs">
       <DependentUpon>AttendanceInformation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -127,6 +139,28 @@
     </Compile>
     <Compile Include="Consultation.aspx.designer.cs">
       <DependentUpon>Consultation.aspx</DependentUpon>
+=======
+    <Compile Include="Committee Work.aspx.cs">
+      <DependentUpon>Committee Work.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Committee Work.aspx.designer.cs">
+      <DependentUpon>Committee Work.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Conference Presentations.aspx.cs">
+      <DependentUpon>Conference Presentations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Conference Presentations.aspx.designer.cs">
+      <DependentUpon>Conference Presentations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Department Program.aspx.cs">
+      <DependentUpon>Department Program.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Department Program.aspx.designer.cs">
+      <DependentUpon>Department Program.aspx</DependentUpon>
+>>>>>>> origin/master
     </Compile>
     <Compile Include="Export.aspx.cs">
       <DependentUpon>Export.aspx</DependentUpon>
@@ -164,6 +198,7 @@
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -219,6 +254,21 @@
     </Compile>
     <Compile Include="WorkshopDetails.aspx.designer.cs">
       <DependentUpon>WorkshopDetails.aspx</DependentUpon>
+=======
+    <Compile Include="Publication.aspx.cs">
+      <DependentUpon>Publication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publication.aspx.designer.cs">
+      <DependentUpon>Publication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workshop.aspx.cs">
+      <DependentUpon>Workshop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workshop.aspx.designer.cs">
+      <DependentUpon>Workshop.aspx</DependentUpon>
+>>>>>>> origin/master
     </Compile>
   </ItemGroup>
   <ItemGroup>

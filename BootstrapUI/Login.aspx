@@ -62,8 +62,6 @@
         </div>
 
 
-
-
         <div class="navbar navbar-default navbar-fixed-bottom">
             <div class="container">
                 <img class="pull-left" id="brand-image" alt="brand" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Temple_T_logo.svg/170px-Temple_T_logo.svg.png" height="35" width="35" />
