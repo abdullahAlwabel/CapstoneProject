@@ -8,55 +8,55 @@
     <h3 class="text-center">Committee Work Details: </h3>
     <div class="container text-center">
 
-        <asp:Label ID="lblCommitteeMeetingName" runat="server" Text="Committee Meeting Name: "></asp:Label><br />
-        <asp:TextBox ID="txtCommitteeMeetingName" runat="server" Width="160px"></asp:TextBox><br />
+        <asp:Label ID="lblMeetingName" runat="server" Text="Committee Meeting Name: "></asp:Label><br />
+        <asp:TextBox ID="txtMeetingName" runat="server" Width="160px"></asp:TextBox><br />
         <br />
 
-        <asp:Label ID="lblCommitteeFrequency" runat="server" Text="Frequency of meetings: "></asp:Label><br />
+        <asp:Label ID="lblFrequency" runat="server" Text="Frequency of meetings: "></asp:Label><br />
 
-        <input name="optCommitteeFrequency" type="radio" value="Active" />
+        <input name="optFrequency" type="radio" value="Active" />
         Daily
-            <input name="optCommitteeFrequency" type="radio" value="Active" />
+            <input name="optFrequency" type="radio" value="Active" />
         Weekly
-            <input name="optCommitteeFrequency" type="radio" value="Active" />
+            <input name="optFrequency" type="radio" value="Active" />
         Monthly
-            <input name="optCommitteeFrequency" type="radio" value="Active" />
+            <input name="optFrequency" type="radio" value="Active" />
         Annually<br />
         <br />
 
-        <asp:Label ID="lblCommitteeNumbersOfMeeting" runat="server" Text="Number of meetings: "></asp:Label><br />
+        <asp:Label ID="lblNumbersOfMeeting" runat="server" Text="Number of meetings: "></asp:Label><br />
 
-        <input name="optCommitteeNumbersOfMeeting" type="radio" value="Active" />
+        <input name="optNumbersOfMeeting" type="radio" value="Active" />
         1
-            <input name="optCommitteeNumbersOfMeeting" type="radio" value="Active" />
+            <input name="optNumbersOfMeeting" type="radio" value="Active" />
         2
-            <input name="optCommitteeNumbersOfMeeting" type="radio" value="Active" />
+            <input name="optNumbersOfMeeting" type="radio" value="Active" />
         3
-            <input name="optCommitteeNumbersOfMeeting" type="radio" value="Active" />
+            <input name="optNumbersOfMeeting" type="radio" value="Active" />
         4
-            <input name="optCommitteeNumbersOfMeeting" type="radio" value="Active" />
+            <input name="optNumbersOfMeeting" type="radio" value="Active" />
         5
-            <input name="optCommitteeNumbersOfMeeting" type="radio" value="Active" />
+            <input name="optNumbersOfMeeting" type="radio" value="Active" />
         6
-            <input name="optCommitteeNumbersOfMeeting" type="radio" value="Active" />
+            <input name="optNumbersOfMeeting" type="radio" value="Active" />
         7
-            <input name="optCommitteeNumbersOfMeeting" type="radio" value="Active" />
+            <input name="optNumbersOfMeeting" type="radio" value="Active" />
         8
-            <input name="optCommitteeNumbersOfMeeting" type="radio" value="Active" />
+            <input name="optNumbersOfMeeting" type="radio" value="Active" />
         9
-            <input name="optCommitteeNumbersOfMeeting" type="radio" value="Active" />
+            <input name="optNumbersOfMeeting" type="radio" value="Active" />
         10<br />
         <br />
 
 
-        <asp:Label ID="lblCommitteeDate" runat="server" Text="Date: "></asp:Label><br />
-        <asp:TextBox ID="txtCommitteeDate" runat="server"></asp:TextBox>
+        <asp:Label ID="lblDate" runat="server" Text="Date: "></asp:Label><br />
+        <asp:TextBox ID="txtDate" runat="server"></asp:TextBox>
         <br />
         <br />
 
 
-        <asp:Label ID="lblCommitteeStartTime" runat="server" Text="Start Time:"></asp:Label>
-        <asp:DropDownList ID="ddlCommitteeStartTime" runat="server">
+        <asp:Label ID="lblStartTime" runat="server" Text="Start Time:"></asp:Label>
+        <asp:DropDownList ID="ddlStartTime" runat="server">
             <asp:ListItem>8:00AM</asp:ListItem>
             <asp:ListItem>8:30AM</asp:ListItem>
             <asp:ListItem>9:00AM</asp:ListItem>
@@ -79,8 +79,8 @@
         </asp:DropDownList><br />
         <br />
 
-        <asp:Label ID="lblCommitteeEndTime" runat="server" Text="End Time: "></asp:Label>
-        <asp:DropDownList ID="ddlCommitteeEndTime" runat="server">
+        <asp:Label ID="lblEndTime" runat="server" Text="End Time: "></asp:Label>
+        <asp:DropDownList ID="ddlEndTime" runat="server">
             <asp:ListItem>8:00AM</asp:ListItem>
             <asp:ListItem>8:30AM</asp:ListItem>
             <asp:ListItem>9:00AM</asp:ListItem>
@@ -103,22 +103,22 @@
         </asp:DropDownList><br />
         <br />
 
-        <asp:Label ID="lblCommitteeDesc" runat="server" Text="Committee Description: "></asp:Label><br />
-        <asp:TextBox ID="txtCommitteeDesc"  runat="server" Height="60px" Width="235px"></asp:TextBox><br />
+        <asp:Label ID="lblDesc" runat="server" Text="Committee Description: "></asp:Label><br />
+        <asp:TextBox ID="txtDesc"  runat="server" Height="60px" Width="235px"></asp:TextBox><br /><br />
 
-        <asp:Label ID="lblCommitteeNotes" runat="server" Text="Notes: "></asp:Label><br />
-        <asp:TextBox ID="txtCommitteeNotes"  runat="server" Height="60px" Width="235px"></asp:TextBox><br />
+        <asp:Label ID="lblNotes" runat="server" Text="Notes: "></asp:Label><br />
+        <asp:TextBox ID="txtNotes"  runat="server" Height="60px" Width="235px"></asp:TextBox><br />
         <br />
 
-        <asp:Label ID="lblCommitteeStatus" runat="server" Text="Status:  "></asp:Label>
-        <input name="optCommitteeStatus" type="radio" value="Active" />
+        <asp:Label ID="lblStatus" runat="server" Text="Status:  "></asp:Label>
+        <input name="optStatus" type="radio" value="Active" />
         Active
-            <input name="optCommitteeStatus" type="radio" value="Inactive" />
+            <input name="optStatus" type="radio" value="Inactive" />
         Inactive<br />
         <br />
 
         <h3>Select Available Facilitators: </h3>
-        <asp:DropDownList ID="ddlCommitteeFacilitators" runat="server" Height="23px" Width="150px">
+        <asp:DropDownList ID="ddlFacilitators" runat="server" Height="23px" Width="150px">
             <asp:ListItem></asp:ListItem>
             <asp:ListItem>Donna-Marie Peter</asp:ListItem>
             <asp:ListItem>Pete Watkins</asp:ListItem>
@@ -133,13 +133,13 @@
         </asp:DropDownList><br />
         <br />
 
-        <asp:Label ID="lblFacilitatorsShow" runat="server" Text="If facilitator is not listed above, add from below: "></asp:Label><br />
+        <asp:Label ID="lblShow" runat="server" Text="If facilitator is not listed above, add from below: "></asp:Label><br />
 
         <br />
-        <asp:Label ID="lblFacilitatorsFN" runat="server" Text="First Name: "></asp:Label><asp:TextBox ID="txtFacilitatorsFN" runat="server"></asp:TextBox>
-        <asp:Label ID="lblFacilitatorsLN" runat="server" Text="Last Name: "></asp:Label><asp:TextBox ID="txtFacilitatorsLN" runat="server"></asp:TextBox>
-        <asp:Label ID="lblFacilitatorsID" runat="server" Text="AccessnetID: "></asp:Label><asp:TextBox ID="txtFacilitatorsID" runat="server"></asp:TextBox>
-        <asp:Label ID="lblFacilitatorsEmail" runat="server" Text="Email: "></asp:Label><asp:TextBox ID="FacilitatorsEmail" runat="server"></asp:TextBox>
+        <asp:Label ID="lblFN" runat="server" Text="First Name: "></asp:Label><asp:TextBox ID="txtFN" runat="server"></asp:TextBox>
+        <asp:Label ID="lblLN" runat="server" Text="Last Name: "></asp:Label><asp:TextBox ID="txtLN" runat="server"></asp:TextBox>
+        <asp:Label ID="lblID" runat="server" Text="AccessnetID: "></asp:Label><asp:TextBox ID="txtID" runat="server"></asp:TextBox>
+        <asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label><asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
 
         <br />
         <br />

@@ -13,229 +13,229 @@ namespace BootstrapUI {
     public partial class CommitteeWork {
         
         /// <summary>
-        /// lblCommitteeMeetingName control.
+        /// lblMeetingName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCommitteeMeetingName;
+        protected global::System.Web.UI.WebControls.Label lblMeetingName;
         
         /// <summary>
-        /// txtCommitteeMeetingName control.
+        /// txtMeetingName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCommitteeMeetingName;
+        protected global::System.Web.UI.WebControls.TextBox txtMeetingName;
         
         /// <summary>
-        /// lblCommitteeFrequency control.
+        /// lblFrequency control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCommitteeFrequency;
+        protected global::System.Web.UI.WebControls.Label lblFrequency;
         
         /// <summary>
-        /// lblCommitteeNumbersOfMeeting control.
+        /// lblNumbersOfMeeting control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCommitteeNumbersOfMeeting;
+        protected global::System.Web.UI.WebControls.Label lblNumbersOfMeeting;
         
         /// <summary>
-        /// lblCommitteeDate control.
+        /// lblDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCommitteeDate;
+        protected global::System.Web.UI.WebControls.Label lblDate;
         
         /// <summary>
-        /// txtCommitteeDate control.
+        /// txtDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCommitteeDate;
+        protected global::System.Web.UI.WebControls.TextBox txtDate;
         
         /// <summary>
-        /// lblCommitteeStartTime control.
+        /// lblStartTime control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCommitteeStartTime;
+        protected global::System.Web.UI.WebControls.Label lblStartTime;
         
         /// <summary>
-        /// ddlCommitteeStartTime control.
+        /// ddlStartTime control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlCommitteeStartTime;
+        protected global::System.Web.UI.WebControls.DropDownList ddlStartTime;
         
         /// <summary>
-        /// lblCommitteeEndTime control.
+        /// lblEndTime control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCommitteeEndTime;
+        protected global::System.Web.UI.WebControls.Label lblEndTime;
         
         /// <summary>
-        /// ddlCommitteeEndTime control.
+        /// ddlEndTime control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlCommitteeEndTime;
+        protected global::System.Web.UI.WebControls.DropDownList ddlEndTime;
         
         /// <summary>
-        /// lblCommitteeDesc control.
+        /// lblDesc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCommitteeDesc;
+        protected global::System.Web.UI.WebControls.Label lblDesc;
         
         /// <summary>
-        /// txtCommitteeDesc control.
+        /// txtDesc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCommitteeDesc;
+        protected global::System.Web.UI.WebControls.TextBox txtDesc;
         
         /// <summary>
-        /// lblCommitteeNotes control.
+        /// lblNotes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCommitteeNotes;
+        protected global::System.Web.UI.WebControls.Label lblNotes;
         
         /// <summary>
-        /// txtCommitteeNotes control.
+        /// txtNotes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCommitteeNotes;
+        protected global::System.Web.UI.WebControls.TextBox txtNotes;
         
         /// <summary>
-        /// lblCommitteeStatus control.
+        /// lblStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCommitteeStatus;
+        protected global::System.Web.UI.WebControls.Label lblStatus;
         
         /// <summary>
-        /// ddlCommitteeFacilitators control.
+        /// ddlFacilitators control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlCommitteeFacilitators;
+        protected global::System.Web.UI.WebControls.DropDownList ddlFacilitators;
         
         /// <summary>
-        /// lblFacilitatorsShow control.
+        /// lblShow control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFacilitatorsShow;
+        protected global::System.Web.UI.WebControls.Label lblShow;
         
         /// <summary>
-        /// lblFacilitatorsFN control.
+        /// lblFN control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFacilitatorsFN;
+        protected global::System.Web.UI.WebControls.Label lblFN;
         
         /// <summary>
-        /// txtFacilitatorsFN control.
+        /// txtFN control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFacilitatorsFN;
+        protected global::System.Web.UI.WebControls.TextBox txtFN;
         
         /// <summary>
-        /// lblFacilitatorsLN control.
+        /// lblLN control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFacilitatorsLN;
+        protected global::System.Web.UI.WebControls.Label lblLN;
         
         /// <summary>
-        /// txtFacilitatorsLN control.
+        /// txtLN control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFacilitatorsLN;
+        protected global::System.Web.UI.WebControls.TextBox txtLN;
         
         /// <summary>
-        /// lblFacilitatorsID control.
+        /// lblID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFacilitatorsID;
+        protected global::System.Web.UI.WebControls.Label lblID;
         
         /// <summary>
-        /// txtFacilitatorsID control.
+        /// txtID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFacilitatorsID;
+        protected global::System.Web.UI.WebControls.TextBox txtID;
         
         /// <summary>
-        /// lblFacilitatorsEmail control.
+        /// lblEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFacilitatorsEmail;
+        protected global::System.Web.UI.WebControls.Label lblEmail;
         
         /// <summary>
-        /// FacilitatorsEmail control.
+        /// txtEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FacilitatorsEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtEmail;
         
         /// <summary>
         /// btnSubmit control.
