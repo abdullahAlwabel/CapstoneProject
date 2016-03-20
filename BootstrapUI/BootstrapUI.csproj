@@ -58,6 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Abdullah%27sStyleSheet.css" />
     <Content Include="Activites.aspx" />
     <Content Include="Adminstration.aspx" />
     <Content Include="CommitteeWork.aspx" />
