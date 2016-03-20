@@ -21,6 +21,16 @@
                                 <asp:CheckBox runat="server"></asp:CheckBox><asp:Label runat="server" Text=" Publication"></asp:Label></p>
                                 <asp:CheckBox runat="server"></asp:CheckBox><asp:Label runat="server" Text=" Department Program"></asp:Label></p>
                                 <asp:CheckBox runat="server"></asp:CheckBox><asp:Label runat="server" Text=" Comittee Work"></asp:Label></p>
+                <h3>Date</h3>
+                <asp:Label  runat="server" Text="Start Date"></asp:Label>
+                <asp:TextBox class="input-sm" runat="server" ></asp:TextBox>
+                <br />
+                <asp:Label runat="server" Text="End Date"></asp:Label>
+                <asp:TextBox class="input-sm" runat="server" ></asp:TextBox>
+                <h3>Status</h3>
+                <input name="optCategory" type="radio" value="Active" /> <asp:Label runat="server" Text="Active"></asp:Label>
+                <br />
+                <input name="optCategory" type="radio" value="Active" /> <asp:Label runat="server" Text="Inactive"></asp:Label>
             </div>
             <div class="col-sm-9">
                 <h1>Search Activities</h1>
