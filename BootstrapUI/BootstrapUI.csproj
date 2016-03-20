@@ -65,6 +65,7 @@
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\MasterPageCSS.css" />
     <Content Include="Export.aspx" />
     <Content Include="ExportContentPage.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
