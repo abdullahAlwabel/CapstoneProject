@@ -5,3 +5,15 @@
     font-size:16px;
     width:100%;
 }
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.theContent {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
