@@ -84,6 +84,7 @@
     <Content Include="DepartmentProgramDetails.aspx" />
     <Content Include="PublicationDetails.aspx" />
     <Content Include="SwipeScreen.aspx" />
+    <Content Include="ManageActivities.aspx" />
     <Content Include="WorkshopDetails.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -213,6 +214,13 @@
     </Compile>
     <Compile Include="SwipeScreen.aspx.designer.cs">
       <DependentUpon>SwipeScreen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageActivities.aspx.cs">
+      <DependentUpon>ManageActivities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageActivities.aspx.designer.cs">
+      <DependentUpon>ManageActivities.aspx</DependentUpon>
     </Compile>
     <Compile Include="WorkshopDetails.aspx.cs">
       <DependentUpon>WorkshopDetails.aspx</DependentUpon>
