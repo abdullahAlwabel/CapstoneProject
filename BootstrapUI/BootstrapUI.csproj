@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -84,6 +85,8 @@
     <Content Include="DepartmentProgramDetails.aspx" />
     <Content Include="PublicationDetails.aspx" />
     <Content Include="SwipeScreen.aspx" />
+    <Content Include="SearchActivity.aspx" />
+    <Content Include="AttendeesByActivity.aspx" />
     <Content Include="WorkshopDetails.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -213,6 +216,20 @@
     </Compile>
     <Compile Include="SwipeScreen.aspx.designer.cs">
       <DependentUpon>SwipeScreen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchActivity.aspx.cs">
+      <DependentUpon>SearchActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchActivity.aspx.designer.cs">
+      <DependentUpon>SearchActivity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AttendeesByActivity.aspx.cs">
+      <DependentUpon>AttendeesByActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AttendeesByActivity.aspx.designer.cs">
+      <DependentUpon>AttendeesByActivity.aspx</DependentUpon>
     </Compile>
     <Compile Include="WorkshopDetails.aspx.cs">
       <DependentUpon>WorkshopDetails.aspx</DependentUpon>
