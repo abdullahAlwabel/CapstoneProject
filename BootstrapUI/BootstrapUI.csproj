@@ -59,8 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Abdullah%27sStyleSheet.css" />
-    <Content Include="Activites.aspx" />
-    <Content Include="Adminstration.aspx" />
     <Content Include="CommitteeWork.aspx" />
     <Content Include="Consultation.aspx" />
     <Content Include="css\bootstrap-theme.css" />
@@ -68,15 +66,12 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\MasterPageCSS.css" />
-    <Content Include="Export.aspx" />
     <Content Include="ExportContentPage.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="HomePage.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-2.2.0.min.js" />
     <Content Include="js\npm.js" />
-    <Content Include="Login.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Home.aspx" />
     <Content Include="CreateActivity.aspx" />
@@ -88,29 +83,16 @@
     <Content Include="SearchActivity.aspx" />
     <Content Include="AttendeesByActivity.aspx" />
     <Content Include="ManageActivities.aspx" />
+    <Content Include="LoginDetail.aspx" />
     <Content Include="WorkshopDetails.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activites.aspx.cs">
-      <DependentUpon>Activites.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Activites.aspx.designer.cs">
-      <DependentUpon>Activites.aspx</DependentUpon>
-    </Compile>
     <Compile Include="AdmininstrationNestedMasterPage.master.cs">
       <DependentUpon>AdmininstrationNestedMasterPage.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AdmininstrationNestedMasterPage.master.designer.cs">
       <DependentUpon>AdmininstrationNestedMasterPage.master</DependentUpon>
-    </Compile>
-    <Compile Include="Adminstration.aspx.cs">
-      <DependentUpon>Adminstration.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Adminstration.aspx.designer.cs">
-      <DependentUpon>Adminstration.aspx</DependentUpon>
     </Compile>
     <Compile Include="AttendanceInformation.aspx.cs">
       <DependentUpon>AttendanceInformation.aspx</DependentUpon>
@@ -133,33 +115,12 @@
     <Compile Include="Consultation.aspx.designer.cs">
       <DependentUpon>Consultation.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Export.aspx.cs">
-      <DependentUpon>Export.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Export.aspx.designer.cs">
-      <DependentUpon>Export.aspx</DependentUpon>
-    </Compile>
     <Compile Include="ExportContentPage.aspx.cs">
       <DependentUpon>ExportContentPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ExportContentPage.aspx.designer.cs">
       <DependentUpon>ExportContentPage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="HomePage.aspx.cs">
-      <DependentUpon>HomePage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="HomePage.aspx.designer.cs">
-      <DependentUpon>HomePage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -238,6 +199,13 @@
     </Compile>
     <Compile Include="ManageActivities.aspx.designer.cs">
       <DependentUpon>ManageActivities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDetail.aspx.cs">
+      <DependentUpon>LoginDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginDetail.aspx.designer.cs">
+      <DependentUpon>LoginDetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="WorkshopDetails.aspx.cs">
       <DependentUpon>WorkshopDetails.aspx</DependentUpon>
