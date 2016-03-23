@@ -9,42 +9,44 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1 class="text-center">Consultation Details: </h1>
-    <div class="container text-center">
+    <div class="container-fluid row" style="padding-top: 3%">
 
-        <asp:Label ID="Label5" runat="server" Text="Participant Accessnet: "></asp:Label><br />
-        <asp:TextBox ID="TextBox4" class="textboxAbdullah" runat="server"></asp:TextBox>
+        <h1>Consultation Details: </h1>
+        <br />
+        <asp:Label ID="Label5" runat="server" Text="Participant Accessnet: "></asp:Label>
+        <asp:TextBox ID="TextBox4" placeholder="eg: tux12345" class="textboxAbdullah" runat="server"></asp:TextBox>
         <br />
         <br />
 
-        <asp:Label ID="Label4" runat="server" Text="Consultation Topics:  "></asp:Label><br />
-        <asp:DropDownList runat="server" class="textboxAbdullah">
+        <asp:Label ID="Label4" runat="server" Text="Consultation Topics:  "></asp:Label>
+        <asp:DropDownList ID="DropDownList1" runat="server" class="textboxAbdullah">
             <asp:ListItem>Consultation</asp:ListItem>
-        </asp:DropDownList><br /><br />
+        </asp:DropDownList><br />
+        <br />
 
 
 
 
-        <asp:Label ID="Label6" runat="server" Text="Other Topic:  "></asp:Label><br />
-        <asp:TextBox ID="TextBox3" class="textboxAbdullah" runat="server"></asp:TextBox>
+        <asp:Label ID="Label6" runat="server" Text="Other Topic:  "></asp:Label>
+        <asp:TextBox ID="TextBox3" placeholder="eg: Syllabus" class="textboxAbdullah" runat="server"></asp:TextBox>
         <br />
         <br />
 
 
-        <asp:Label ID="Label3" runat="server" Text="Meeting Type: "></asp:Label><br />
-        <asp:TextBox ID="TextBox2" class="textboxAbdullah" runat="server"></asp:TextBox>
+        <asp:Label ID="Label3" runat="server" Text="Meeting Type: "></asp:Label>
+        <asp:TextBox ID="TextBox2" placeholder="eg: Phone" class="textboxAbdullah" runat="server"></asp:TextBox>
         <br />
         <br />
 
 
-        <asp:Label ID="Label2" runat="server" Text="Meeting Length: "></asp:Label><br />
-        <asp:TextBox ID="TextBox1" class="textboxAbdullah" runat="server"></asp:TextBox>
+        <asp:Label ID="Label2" runat="server" Text="Meeting Length: "></asp:Label>
+        <asp:TextBox ID="TextBox1" placeholder="eg: 120 minutes" class="textboxAbdullah" runat="server"></asp:TextBox>
         <br />
         <br />
 
 
-        <asp:Label ID="Label1" runat="server" Text="Date: "></asp:Label><br />
-        <asp:TextBox ID="txtDate" class="textboxAbdullah" runat="server"></asp:TextBox>
+        <asp:Label ID="Label1" runat="server" Text="Date: "></asp:Label>
+        <asp:TextBox ID="txtDate" placeholder="eg: 3/5/16" class="textboxAbdullah" runat="server"></asp:TextBox>
         <br />
         <br />
 
@@ -97,12 +99,6 @@
         </asp:DropDownList><br />
         <br />
 
-
-
-        <asp:Label ID="lblNotes" runat="server" Text="Notes: "></asp:Label><br />
-        <asp:TextBox ID="txtNotes" runat="server" class="textboxAbdullah" textmode="multiline" Height="60px" Width="235px"></asp:TextBox><br />
-        <br />
-
         <asp:Label ID="lblStatus" runat="server" Text="Status:  "></asp:Label>
         <input name="optStatus" type="radio" value="Active" />
         Active
@@ -110,7 +106,16 @@
         Inactive<br />
         <br />
 
-        <h3>Select Available Consultants: </h3>
+
+        <asp:Label ID="lblNotes" runat="server" Text="Notes: "></asp:Label><br />
+        <asp:TextBox ID="txtNotes" runat="server" placeholder="eg: Enter notes here" class="textboxAbdullah" TextMode="multiline" Height="140px" Width="375px"></asp:TextBox><br />
+        <br />
+        <br />
+
+
+
+        <h1>Select Available Consultants: </h1>
+        <br />
         <asp:DropDownList ID="ddlConsultants" runat="server" class="textboxAbdullah" Height="23px" Width="150px">
             <asp:ListItem></asp:ListItem>
             <asp:ListItem>Donna-Marie Peter</asp:ListItem>
@@ -129,10 +134,10 @@
         <asp:Label ID="lblShow" runat="server" Text="If consultant is not listed above, add from below: "></asp:Label><br />
 
         <br />
-        <asp:Label ID="lblFN" runat="server" Text="First Name: "></asp:Label><asp:TextBox ID="txtFN" class="textboxAbdullah" runat="server"></asp:TextBox>
-        <asp:Label ID="lblLN" runat="server" Text="Last Name: "></asp:Label><asp:TextBox ID="txtLN" class="textboxAbdullah" runat="server"></asp:TextBox>
-        <asp:Label ID="lblID" runat="server" Text="AccessnetID: "></asp:Label><asp:TextBox ID="txtID" class="textboxAbdullah" runat="server"></asp:TextBox>
-        <asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label><asp:TextBox ID="txtEmail" class="textboxAbdullah" runat="server"></asp:TextBox>
+        <asp:Label ID="lblFN" runat="server" Text="First Name: "></asp:Label><asp:TextBox placeholder="eg: John" ID="txtFN" class="textboxAbdullah" runat="server"></asp:TextBox>
+        <asp:Label ID="lblLN" runat="server" Text="Last Name: "></asp:Label><asp:TextBox placeholder="eg: Smith" ID="txtLN" class="textboxAbdullah" runat="server"></asp:TextBox>
+        <asp:Label ID="lblID" runat="server" Text="AccessnetID: "></asp:Label><asp:TextBox ID="txtID" placeholder="eg: tux12345" class="textboxAbdullah" runat="server"></asp:TextBox>
+        <asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label><asp:TextBox ID="txtEmail" placeholder="eg: tux12345@temple.edu" class="textboxAbdullah" runat="server"></asp:TextBox>
 
         <br />
         <br />
@@ -141,7 +146,7 @@
 
         <br />
         <br />
-        <asp:Button ID="btnSubmit" CssClass="btn btn-success" runat="server" Text="Submit" />
+        <asp:Button ID="btnSubmit" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
         <br />
         <br />
 

@@ -14,5 +14,10 @@ namespace BootstrapUI
 
         }
 
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("CollectFeedback.aspx");
+        }
+
     }
 }

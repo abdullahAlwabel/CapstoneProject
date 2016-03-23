@@ -157,6 +157,15 @@ namespace BootstrapUI {
         protected global::System.Web.UI.WebControls.DropDownList ddlEndTime;
         
         /// <summary>
+        /// lblStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblStatus;
+        
+        /// <summary>
         /// lblNotes control.
         /// </summary>
         /// <remarks>
@@ -173,15 +182,6 @@ namespace BootstrapUI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtNotes;
-        
-        /// <summary>
-        /// lblStatus control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblStatus;
         
         /// <summary>
         /// ddlPresenters control.
