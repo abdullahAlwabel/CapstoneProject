@@ -12,7 +12,7 @@
           </ul>
          
          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <form role="form" id="form1" runat="server">
+            
 
         <div id="mdlError" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-sm">
@@ -65,7 +65,7 @@
             <div class="panel panel-primary">
                 <div class="panel-heading">
                     <h4 class="panel-title">Edit departments in:</h4>
-                    <asp:DropDownList ID="ddlCollege" runat="server" CssClass="form-control" Width="200px" AutoPostBack="true" OnSelectedIndexChanged="ddlCollege_SelectedIndexChanged">
+                    <asp:DropDownList ID="ddlCollege" runat="server" CssClass="form-control" Width="200px" AutoPostBack="true">
                     </asp:DropDownList>
                 </div>
                 <div class="panel-body">
@@ -94,7 +94,7 @@
         </div>
 
         <br />
-    </form>
+    
          
          </div>
         </div>

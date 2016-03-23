@@ -110,6 +110,7 @@
     <Content Include="AttendeesByActivity.aspx" />
     <Content Include="ManageActivities.aspx" />
     <Content Include="LoginDetail.aspx" />
+    <Content Include="SwipeScreenLatest.aspx" />
     <Content Include="WorkshopDetails.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -260,6 +261,13 @@
     </Compile>
     <Compile Include="LoginDetail.aspx.designer.cs">
       <DependentUpon>LoginDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SwipeScreenLatest.aspx.cs">
+      <DependentUpon>SwipeScreenLatest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SwipeScreenLatest.aspx.designer.cs">
+      <DependentUpon>SwipeScreenLatest.aspx</DependentUpon>
     </Compile>
     <Compile Include="WorkshopDetails.aspx.cs">
       <DependentUpon>WorkshopDetails.aspx</DependentUpon>
