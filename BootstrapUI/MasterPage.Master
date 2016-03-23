@@ -45,12 +45,13 @@
 </head>
     
 <body>
+    <form id="form1" runat="server">
     <div id="tu-global-header-wrapper" class="tu-global-header-wrapper" style="margin-top:17px;">
   <div class="tu-global-branding" style="padding:1em;">
         <img src="images/temple-logo.png" width="190" /></div>
       
 </div>
-    <form id="form1" runat="server">
+   
          
             <nav class="navbar navbar-inverse" style="height:72px;">
   <div class="container-fluid">
@@ -86,126 +87,9 @@
 
             </div>
         </asp:ContentPlaceHolder>
-    </div>
-         </form>
-    <div class="footer" style="bottom:0; margin:0; padding:0;">
-        <div class="footer-header">
-            <br />
-        </div>
-        <div class="footer-body">
-            <br />
-            <div class="container">
-                <div class="col-md-4">
-                    <table class="footer-table" align="center">
-                        <tr>
-                            <td><span class="glyphicon glyphicon-map-marker"></span>&nbsp;</td>
-                            <td><b>TEMPLE UNIVERSITY</b></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Teaching and Learning Center</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>TECH Center, Suite 112<br />
-                                1101 W. Montgomery Ave.<br />
-                                Philadelphia, PA 19122</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-md-4">
-                    <table class="footer-table" align="center">
-                        <tr>
-                            <td><span class="glyphicon glyphicon-list-alt"></span>&nbsp;</td>
-                            <td><a class="footer-links" href="http://directory.temple.edu/">Directory</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class="glyphicon glyphicon-globe"></span>&nbsp;</td>
-                            <td><a class="footer-links" href="http://www.temple.edu/maps-and-directions">Maps and Directions</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class="glyphicon glyphicon-earphone"></span>&nbsp;</td>
-                            <td><a class="footer-links" href="http://www.temple.edu/provost/contact.html">Contact</a></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-md-4">
-                    <table class="footer-table footer-social-links" align="center">
-                        <tr>
-                            <td>
-                                <a href="http://plus.google.com/113298677902716918190?prsrc=3" target="_blank" title="Google Plus Link">
-                                    <img src="images/plusone.png" width="32" height="32" alt="Google+ Button" title="Google+" />
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://www.facebook.com/templeu" target="_blank" title="Facebook Link">
-                                    <img src="images/facebook.png" width="32" height="32" alt="Facebook Button" title="Facebook" />
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://twitter.com/templeuniv" target="_blank" title="Twitter Link">
-                                    <img src="images/twitter.png" width="32" height="32" alt="Twitter Button" title="Twitter" />
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="http://us.linkedin.com/company/temple-university" target="_blank" title="LinkedIn Link">
-                                    <img src="images/linkedin.png" width="32" height="32" alt="LinkedIn Button" title="LinkedIn" />
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://www.youtube.com/TempleUniversity" target="_blank" title="YouTube Link">
-                                    <img src="images/youtube.png" width="32" height="32" alt="YouTube Button" title="YouTube" />
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://pinterest.com/templeuniv" target="_blank" title="Pinterest Link">
-                                    <img src="images/pinterest.png" width="32" height="32" alt="Pinterest Button" title="Pinterest" />
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="footer-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-1">
-                        <br />
-                        <a class="footer-links" href="http://tuportal.temple.edu/">TUPORTAL</a><br />
-                    </div>
-                    <div class="col-md-1">
-                        <br />
-                        <a class="footer-links" href="http://tumail.temple.edu/">TUMAIL</a><br />
-                    </div>
-                    <div class="col-md-1">
-                        <br />
-                        <a class="footer-links" href="http://www.temple.edu/provost/sitemap.html">SITEMAP</a><br />
-                    </div>
-                    <div class="col-md-1">
-                        <br />
-                        <a class="footer-links" href="http://temple.edu/about/temple-university-accessibility-statement">ACCESSIBILITY</a><br />
-                    </div>
-                    <div class="col-md-1">
-                        <br />
-                        <a class="footer-links" href="http://policies.temple.edu/">POLICIES</a><br />
-                    </div>
-                    <div class="col-md-1">
-                        <br />
-                        <a class="footer-links" href="http://www.temple.edu/hr/departments/employment/jobs_within.htm">CAREERS</a><br />
-                    </div>
-                    <div class="col-md-2">
-                        <br />
-                        <br />
-                        <br />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+         </div>
+       
+</form>
 </body>
 
 </html>
