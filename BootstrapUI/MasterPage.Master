@@ -70,10 +70,10 @@
         <li class="active"><a href="Home.aspx">HOME</a></li>
           <li><a href="SearchActivity.aspx">ACTIVITIES</a></li>
         <li><a href="ExportContentPage.aspx">EXPORT</a></li>
-        <li><a href="AdministrationNestedMasterPage">ADMINISTRATION</a></li>
+        <li><a href="Admin.aspx">ADMINISTRATION</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="LoginDetail.aspx"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>

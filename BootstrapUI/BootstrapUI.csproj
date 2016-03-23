@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Abdullah%27sStyleSheet.css" />
+    <Content Include="Admin.aspx" />
     <Content Include="CommitteeWork.aspx" />
     <Content Include="Consultation.aspx" />
     <Content Include="css\bootstrap-theme.css" />
@@ -94,6 +95,9 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-2.2.0.min.js" />
     <Content Include="js\npm.js" />
+    <Content Include="ManageCategories.aspx" />
+    <Content Include="ManageTopics.aspx" />
+    <Content Include="ManageUserTypes.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Home.aspx" />
     <Content Include="CreateActivity.aspx" />
@@ -109,6 +113,13 @@
     <Content Include="WorkshopDetails.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdmininstrationNestedMasterPage.master.cs">
       <DependentUpon>AdmininstrationNestedMasterPage.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -143,6 +154,27 @@
     </Compile>
     <Compile Include="ExportContentPage.aspx.designer.cs">
       <DependentUpon>ExportContentPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCategories.aspx.cs">
+      <DependentUpon>ManageCategories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageCategories.aspx.designer.cs">
+      <DependentUpon>ManageCategories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageTopics.aspx.cs">
+      <DependentUpon>ManageTopics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageTopics.aspx.designer.cs">
+      <DependentUpon>ManageTopics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUserTypes.aspx.cs">
+      <DependentUpon>ManageUserTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageUserTypes.aspx.designer.cs">
+      <DependentUpon>ManageUserTypes.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

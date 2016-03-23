@@ -1,5 +1,70 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="AdmininstrationNestedMasterPage.master.cs" Inherits="BootstrapUI.AdmininstrationNestedMasterPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+ 
 </asp:Content>
+
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class=" container">
+        <div>
+             <div id="mdlHelp" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>&nbsp;Help</h4>
+                </div>
+                <div class="modal-body">
+                    <p><b>FAAAS v1.0</b></p>
+                    <p id="lnkHelp" runat="server"></p>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <br />
+        <div class="row">
+            <div class="col-md-6">
+                <img src="http://www.temple.edu/provost/images/temple-logo.png" width="190" />
+            </div>
+            <div class="col-md-6">
+                <div id="userMenu" class="dropdown" style="float: right;" runat="server">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="ddmUserControls" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-user"></span>&nbsp;<span id="lblUsernameDisplay" runat="server"></span> - <span id="lblUserTUIDDisplay" runat="server"></span>&nbsp;<span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="ddmUserControls">
+                        <li id="btnSwitchRoles" onclick="switchRoles()" runat="server" role="presentation" style="cursor: pointer;"><a role="menuitem" tabindex="-1"><span class="glyphicon glyphicon-refresh"></span>&nbsp;<asp:Label ID="lblSwitchRoles" runat="server" Text="Label"></asp:Label></a></li>
+                        <li role="presentation" onclick="logout()"><a role="menuitem" tabindex="-1" href="#"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Logout</a></li>
+                    </ul>
+                </div>
+
+                <button id="btnHelp" data-toggle="modal" data-target="#mdlHelp" class="btn btn-default" type="submit" style="float: right; margin-right: 5px;"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>&nbsp;Help</button>
+
+                <!--<div class="dropdown" style="float: right;">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="Button1" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-calendar"></span>&nbsp;2014-2015&nbsp;<span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="ddmUserControls">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2013-2014</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2012-2013</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2011-2012</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2010-2011</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2009-2010</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2008-2009</a></li>
+                    </ul>
+                </div>-->
+                <%--<button type="button" class="btn btn-default" style="float: right; margin-right: 5px;"><span class="glyphicon glyphicon-calendar"></span>&nbsp;2014 - 2015</button>--%>
+            </div>
+        </div>
+       
+        <br />
+        <br />
+        <ul id="lstTabBar" class="nav nav-pills" role="tablist" runat="server"></ul>
+        <hr id="header-divider" />
+        <br />
+        </div>
+    </div>
 </asp:Content>
+
