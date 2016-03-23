@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css" />
-    <link rel="stylesheet" href="css/trumbowyg.min.css">
+    <link rel="stylesheet" href="css/trumbowyg.min.css" />
+    <link href="css/MasterPageCSS.css" rel="stylesheet" />
 
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/trumbowyg.min.js"></script>
@@ -42,18 +43,18 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-   
+    
 <body>
     <div id="tu-global-header-wrapper" class="tu-global-header-wrapper" style="margin-top:17px;">
-  <div class="tu-global-branding">
-    <h1 class="tu-global-site-name tu-global-site-logo"><a href="#" title="Home">Temple University</a></h1>
-      <p class="tu-global-site-name tu-global-site-logo">CAT Activity Tracking System</p>  </div>
+  <div class="tu-global-branding" style="padding:1em;">
+        <img src="images/temple-logo.png" width="190" /></div>
+      
 </div>
     <form id="form1" runat="server">
          
 
 
-        <div id="block-superfish-1" class="block block-superfish">
+        
             <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -62,14 +63,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">CAT Activity Tracking</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li class="active"><a href="Home.aspx">HOME</a></li>
+          <li><a href="SearchActivity.aspx">ACTIVITIES</a></li>
+        <li><a href="ExportContentPage.aspx">EXPORT</a></li>
+        <li><a href="AdministrationNestedMasterPage">ADMINISTRATION</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -78,7 +79,8 @@
   </div>
 </nav>
     
-</div>
+
+
 
     <%--This is where your content pages will be loaded onto--%>
         <div class="container" style="padding:2em;">
@@ -207,7 +209,7 @@
                     </div>
                     <div class="col-md-4">
                         <br />
-                        &copy; 2014 Viraj Chitnis, John Curran & Nicole Maalouf<br />
+                        <br />
                     </div>
                 </div>
             </div>

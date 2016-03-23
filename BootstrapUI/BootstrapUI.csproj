@@ -68,6 +68,28 @@
     <Content Include="css\MasterPageCSS.css" />
     <Content Include="ExportContentPage.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\home-gallery\engineering-instruction.jpg" />
+    <Content Include="images\home-gallery\environmental-design.jpg" />
+    <Content Include="images\home-gallery\football-tailgate.jpg" />
+    <Content Include="images\home-gallery\project-engage.jpg" />
+    <Content Include="images\home-gallery\tech-center.jpg" />
+    <Content Include="images\home-gallery\temple-earth-fest.jpg" />
+    <Content Include="images\icon_nav_toggle.gif" />
+    <Content Include="images\linkedin.png" />
+    <Content Include="images\login_background.png" />
+    <Content Include="images\news-stories\class-of-2018.jpg" />
+    <Content Include="images\news-stories\cosby-award.jpg" />
+    <Content Include="images\news-stories\khalili-hiv.jpg" />
+    <Content Include="images\pinterest.png" />
+    <Content Include="images\plusone.png" />
+    <Content Include="images\provost-logo.png" />
+    <Content Include="images\temple-logo-mobile-horizontal.png" />
+    <Content Include="images\temple-logo-mobile.png" />
+    <Content Include="images\temple-logo.png" />
+    <Content Include="images\twitter.png" />
+    <Content Include="images\youtube.png" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-2.2.0.min.js" />
@@ -229,6 +251,7 @@
     <Content Include="web.config" />
     <Content Include="MasterPage.Master" />
     <Content Include="AdmininstrationNestedMasterPage.master" />
+    <Content Include="images\.DS_Store" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

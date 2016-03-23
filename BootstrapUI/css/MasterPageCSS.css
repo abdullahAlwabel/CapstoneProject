@@ -17,7 +17,12 @@
 {
     bottom:0;
     margin:0;
-    height:297px;
+}
+
+.navbar
+{
+    background-color:#a41e35;
+    color:white;
 }
 
 
