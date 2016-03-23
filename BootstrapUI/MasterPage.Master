@@ -64,7 +64,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="Home.aspx">HOME</a></li>
+        <li><a href="Home.aspx">HOME</a></li>
           <li><a href="SearchActivity.aspx">ACTIVITIES</a></li>
         <li><a href="ExportContentPage.aspx">EXPORT</a></li>
         <li><a href="Admin.aspx">ADMINISTRATION</a></li>

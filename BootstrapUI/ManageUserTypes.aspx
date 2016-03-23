@@ -66,7 +66,7 @@
             <div class="col-md-12">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Current Administrators</h3>
+                        <h3 class="panel-title">Current Users</h3>
                     </div>
                     <div class="panel-body">
                         <div class="row">
@@ -86,7 +86,6 @@
                                             <asp:CheckBox ID="ChkSelect" runat="server" />
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                    <asp:CheckBoxField HeaderText="First Name" />
                                     <asp:TemplateField HeaderText="Last Name"></asp:TemplateField>
                                     <asp:TemplateField HeaderText="Consultant">
                                         <ItemTemplate>
@@ -98,7 +97,7 @@
                                             <asp:CheckBox ID="CheckBox3" runat="server" />
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                    <asp:TemplateField HeaderText="AccessnetID"></asp:TemplateField>
+                                   
                                 </Columns>
                             </asp:GridView>
                         </div>

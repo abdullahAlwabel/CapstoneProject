@@ -135,7 +135,7 @@
             </table>
 
 
-              <form class="form-horizontal" role="form">
+              <div class="form-horizontal" role="form">
                    <h3 class="sub-header">Add User</h3>
   <div class="form-group">
        <div class="row">
@@ -186,6 +186,8 @@
       <button type="submit" class="btn btn-default">Submit</button>
     </div>
   </div>
-</form>
+</div>
 
+              </div>
+             </div>
 </asp:Content>
