@@ -6,14 +6,14 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1 class="text-center">Committee Work Details: </h1>
-    <div class="container text-center">
-
-        <asp:Label ID="lblMeetingName" runat="server" Text="Committee Meeting Name: "></asp:Label><br />
-        <asp:TextBox ID="txtMeetingName" class="textboxAbdullah" runat="server" Width="160px"></asp:TextBox><br />
+    <div class="container-fluid row" style="padding-top: 3%">
+        <h1>Committee Work Details: </h1>
+        <br />
+        <asp:Label ID="lblMeetingName" runat="server" Text="Committee Meeting Name: "></asp:Label>
+        <asp:TextBox ID="txtMeetingName" placeholder="eg: Committee" class="textboxAbdullah" runat="server" Width="160px"></asp:TextBox><br />
         <br />
 
-        <asp:Label ID="lblFrequency" runat="server" Text="Frequency of meetings: "></asp:Label><br />
+        <asp:Label ID="lblFrequency" runat="server" Text="Frequency of meetings: "></asp:Label>
 
         <input name="optFrequency" type="radio" value="Active" />
         Daily
@@ -25,7 +25,7 @@
         Annually<br />
         <br />
 
-        <asp:Label ID="lblNumbersOfMeeting" runat="server" Text="Number of meetings: "></asp:Label><br />
+        <asp:Label ID="lblNumbersOfMeeting" runat="server" Text="Number of meetings: "></asp:Label>
 
         <input name="optNumbersOfMeeting" type="radio" value="Active" />
         1
@@ -50,8 +50,8 @@
         <br />
 
 
-        <asp:Label ID="lblDate" runat="server" Text="Date: "></asp:Label><br />
-        <asp:TextBox ID="txtDate" class="textboxAbdullah" runat="server"></asp:TextBox>
+        <asp:Label ID="lblDate" runat="server" Text="Date: "></asp:Label>
+        <asp:TextBox ID="txtDate" placeholder="eg: 3/5/16" class="textboxAbdullah" runat="server"></asp:TextBox>
         <br />
         <br />
 
@@ -104,13 +104,6 @@
         </asp:DropDownList><br />
         <br />
 
-        <asp:Label ID="lblDesc" runat="server" Text="Committee Description: "></asp:Label><br />
-        <asp:TextBox ID="txtDesc"  runat="server" textmode="multiline" class="textboxAbdullah" Height="60px" Width="235px"></asp:TextBox><br /><br />
-
-        <asp:Label ID="lblNotes" runat="server" Text="Notes: "></asp:Label><br />
-        <asp:TextBox ID="txtNotes"  runat="server" textmode="multiline" class="textboxAbdullah" Height="60px" Width="235px"></asp:TextBox><br />
-        <br />
-
         <asp:Label ID="lblStatus" runat="server" Text="Status:  "></asp:Label>
         <input name="optStatus" type="radio" value="Active" />
         Active
@@ -118,7 +111,18 @@
         Inactive<br />
         <br />
 
-        <h3>Select Available Facilitators: </h3>
+        <asp:Label ID="lblDesc" runat="server" Text="Committee Description: "></asp:Label><br />
+        <asp:TextBox ID="txtDesc" placeholder="Enter description here" runat="server" TextMode="multiline" class="textboxAbdullah" Height="140px" Width="375px"></asp:TextBox><br />
+        <br />
+
+        <asp:Label ID="lblNotes" runat="server" Text="Notes: "></asp:Label><br />
+        <asp:TextBox ID="txtNotes" placeholder="eg: Enter notes here" runat="server" TextMode="multiline" class="textboxAbdullah" Height="140px" Width="375px"></asp:TextBox><br />
+        <br />
+
+
+
+        <h1>Select Available Facilitators: </h1>
+        <br />
         <asp:DropDownList ID="ddlFacilitators" class="textboxAbdullah" runat="server" Height="23px" Width="150px">
             <asp:ListItem></asp:ListItem>
             <asp:ListItem>Donna-Marie Peter</asp:ListItem>
@@ -137,10 +141,10 @@
         <asp:Label ID="lblShow" runat="server" Text="If facilitator is not listed above, add from below: "></asp:Label><br />
 
         <br />
-        <asp:Label ID="lblFN" runat="server" Text="First Name: "></asp:Label><asp:TextBox class="textboxAbdullah" ID="txtFN" runat="server"></asp:TextBox>
-        <asp:Label ID="lblLN" runat="server" Text="Last Name: "></asp:Label><asp:TextBox class="textboxAbdullah" ID="txtLN" runat="server"></asp:TextBox>
-        <asp:Label ID="lblID" runat="server" Text="AccessnetID: "></asp:Label><asp:TextBox class="textboxAbdullah" ID="txtID" runat="server"></asp:TextBox>
-        <asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label><asp:TextBox class="textboxAbdullah" ID="txtEmail" runat="server"></asp:TextBox>
+        <asp:Label ID="lblFN" runat="server" Text="First Name: "></asp:Label><asp:TextBox placeholder="eg: John" class="textboxAbdullah" ID="txtFN" runat="server"></asp:TextBox>
+        <asp:Label ID="lblLN" runat="server" Text="Last Name: "></asp:Label><asp:TextBox placeholder="eg: Smith" class="textboxAbdullah" ID="txtLN" runat="server"></asp:TextBox>
+        <asp:Label ID="lblID" runat="server" Text="AccessnetID: "></asp:Label><asp:TextBox placeholder="eg: tux12345" class="textboxAbdullah" ID="txtID" runat="server"></asp:TextBox>
+        <asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label><asp:TextBox placeholder="eg: tux12345" class="textboxAbdullah" ID="txtEmail" runat="server"></asp:TextBox>
 
         <br />
         <br />
@@ -149,7 +153,8 @@
 
         <br />
         <br />
-        <asp:Button ID="btnSubmit" CssClass="btn btn-success" runat="server" Text="Submit" /><br /><br />
+        <asp:Button ID="btnSubmit" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" OnClick="btnSubmit_Click" /><br />
+        <br />
 
     </div>
 
