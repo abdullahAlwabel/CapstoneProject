@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="ManageActivities.aspx.cs" Inherits="BootstrapUI.WebForm7" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="ManageActivities.aspx.cs" Inherits="BootstrapUI.ManageActivities" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -12,7 +12,7 @@
         <br />
         <div class="row">
             <div class="col-sm-3">
-                <h1>Narrow Results By</h1>
+                <asp:TextBox runat="server" placeholder="search activities"></asp:TextBox>
             </div>
         </div>
 
