@@ -97,7 +97,7 @@
     <Content Include="js\npm.js" />
     <Content Include="ManageCategories.aspx" />
     <Content Include="ManageTopics.aspx" />
-    <Content Include="ManageUserTypes.aspx" />
+    <Content Include="AddUser.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Home.aspx" />
     <Content Include="CreateActivity.aspx" />
@@ -170,12 +170,12 @@
     <Compile Include="ManageTopics.aspx.designer.cs">
       <DependentUpon>ManageTopics.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ManageUserTypes.aspx.cs">
-      <DependentUpon>ManageUserTypes.aspx</DependentUpon>
+    <Compile Include="AddUser.aspx.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ManageUserTypes.aspx.designer.cs">
-      <DependentUpon>ManageUserTypes.aspx</DependentUpon>
+    <Compile Include="AddUser.aspx.designer.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

@@ -12,7 +12,11 @@
           </ul>
          
          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+<<<<<<< HEAD
             
+=======
+          
+>>>>>>> 49aaad75084270da0a84d91856a22a0b22ef4c05
 
         <div id="mdlError" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-sm">
