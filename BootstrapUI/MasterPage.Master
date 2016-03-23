@@ -52,10 +52,7 @@
 </div>
     <form id="form1" runat="server">
          
-
-
-        
-            <nav class="navbar navbar-inverse">
+            <nav class="navbar navbar-inverse" style="height:72px;">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -90,10 +87,8 @@
             </div>
         </asp:ContentPlaceHolder>
     </div>
-   
-
          </form>
-    <div class="footer">
+    <div class="footer" style="bottom:0; margin:0; padding:0;">
         <div class="footer-header">
             <br />
         </div>
@@ -204,10 +199,6 @@
                     </div>
                     <div class="col-md-2">
                         <br />
-                        <br />
-                        <br />
-                    </div>
-                    <div class="col-md-4">
                         <br />
                         <br />
                     </div>

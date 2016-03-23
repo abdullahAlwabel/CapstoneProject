@@ -4,6 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div class="container">
+        <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Settings <span class="sr-only">(current)</span></a></li>
@@ -16,9 +17,9 @@
          
         </div>
 
-        <div class="row">
+         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
             <h1>Manage Activities</h1>
-        </div>
+    
         <br />
         <br />
         <div class="row">
@@ -44,9 +45,9 @@
 
     </div>
 
+        </div>
 
-
-
+    </div>
 
 
 

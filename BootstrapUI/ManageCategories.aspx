@@ -11,6 +11,9 @@
             <li><a href="ManageCategories.aspx">Manage Activity Categories</a></li>
           </ul>
          
+         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            
          
+         </div>
         </div>
 </asp:Content>
