@@ -4,7 +4,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-
+     <%-- reference to external Google Fonts, 'Open-Sans bold' used by Temple Brand --%>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
      <link rel="icon" type="image/png" href="images/favicon.ico" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
@@ -13,7 +14,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css" />
     <link rel="stylesheet" href="css/trumbowyg.min.css" />
-    <link href="css/MasterPageCSS.css" rel="stylesheet" />
+   
+   <%-- Custom style sheet for Master page --%>
+     <link href="css/MasterPageCSS.css" rel="stylesheet" />
 
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/trumbowyg.min.js"></script>
@@ -35,6 +38,24 @@
             -ms-user-select: text;
             user-select: text;
         }
+
+        .navbar navbar-inverse 
+        {
+          font-family: 'Open Sans', sans-serif;  
+        }
+
+        navbar-header 
+        {
+            color: white;
+        }
+
+
+        navbar-brand > a
+        {
+            font-family: 'Open Sans', sans-serif;  
+            color:white;
+        }
+
     </style>
 
 
@@ -61,7 +82,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">CAT Activity Tracking</a>
+      <a class="navbar-brand" style="color:white; font-family: 'Open Sans', sans-serif;" href="#">CAT Activity Tracking</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
