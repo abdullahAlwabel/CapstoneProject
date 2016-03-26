@@ -7,8 +7,8 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container-fluid" style="padding-top: 3%">
-
         <div class="row">
+
             <div class="col-md-6">
                 <h1>Department Program Details: </h1>
                 <br />
@@ -96,14 +96,8 @@
                 Active
             <input name="optStatus" type="radio" value="Inactive" />
                 Inactive<br />
-                <br />
-
-                <asp:Button ID="btnSubmit" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" /><br />
-                <br />
+            
             </div>
-
-
-
 
             <div class="col-md-6">
                 <h1>Select Available Facilitators: </h1>
@@ -145,16 +139,16 @@
                 <asp:TextBox ID="txtNotes" class="textboxAbdullah" placeholder="Enter notes here" TextMode="multiline" runat="server" Height="140px" Width="375px"></asp:TextBox>
 
             </div>
+
+
+            
+        </div>
+        <div class="span2 text-center">
+            <br />
+            <br />
+            <asp:Button ID="Button1" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
         </div>
 
-
-
     </div>
-
-    <br />
-
-
-
-
 
 </asp:Content>

@@ -6,7 +6,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container-fluid row" style="padding-top: 3%">
 
-
         <div class="row">
             <div class="col-md-6">
                 <h1>Publication Details: </h1>
@@ -78,16 +77,9 @@
                 Active
             <input name="optStatus" type="radio" value="Inactive" />
                 Inactive<br />
-                <br />
 
 
-                <asp:Button ID="btnSubmit" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
-            <br />
-            <br />
             </div>
-
-
-
 
             <div class="col-md-6">
                 <h1>Select Available Authors: </h1>
@@ -111,13 +103,20 @@
 
                 <br />
                 <asp:Label ID="lblFN" runat="server" Text="First Name: "></asp:Label><asp:TextBox class="textboxAbdullah" placeholder="eg: John" ID="txtFN" runat="server"></asp:TextBox>
-                <br /><br /><asp:Label ID="lblLN" runat="server" Text="Last Name: "></asp:Label><asp:TextBox class="textboxAbdullah" ID="txtLN" placeholder="eg: smith" runat="server"></asp:TextBox>
-                <br /><br /><asp:Label ID="lblID" runat="server" Text="AccessnetID: "></asp:Label><asp:TextBox class="textboxAbdullah" ID="txtID" placeholder="eg: tux12345" runat="server"></asp:TextBox>
-                <br /><br /><asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label><asp:TextBox class="textboxAbdullah" ID="txtEmail" placeholder="eg: tux12345@temple.edu" runat="server"></asp:TextBox>
+                <br />
+                <br />
+                <asp:Label ID="lblLN" runat="server" Text="Last Name: "></asp:Label><asp:TextBox class="textboxAbdullah" ID="txtLN" placeholder="eg: smith" runat="server"></asp:TextBox>
+                <br />
+                <br />
+                <asp:Label ID="lblID" runat="server" Text="AccessnetID: "></asp:Label><asp:TextBox class="textboxAbdullah" ID="txtID" placeholder="eg: tux12345" runat="server"></asp:TextBox>
+                <br />
+                <br />
+                <asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label><asp:TextBox class="textboxAbdullah" ID="txtEmail" placeholder="eg: tux12345@temple.edu" runat="server"></asp:TextBox>
 
                 <br />
                 <br />
-                <a href="#">Add Additional Authors</a><br /><br />
+                <a href="#">Add Additional Authors</a><br />
+                <br />
 
                 <asp:TextBox ID="txtNotes" class="textboxAbdullah" TextMode="multiline" placeholder="Enter notes here" runat="server" Height="140px" Width="375px"></asp:TextBox><br />
                 <br />
@@ -126,6 +125,11 @@
                 <br />
             </div>
 
+        </div>
+        <div class="span2 text-center">
+            <br />
+            <br />
+            <asp:Button ID="Button1" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
         </div>
     </div>
 </asp:Content>

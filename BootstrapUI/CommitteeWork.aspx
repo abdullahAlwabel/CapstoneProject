@@ -2,6 +2,8 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Abdullah'sStyleSheet.css" rel="stylesheet" />
+
+
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -118,9 +120,8 @@
                 <asp:TextBox ID="txtDesc" placeholder="Enter description here" runat="server" TextMode="multiline" class="textboxAbdullah" Height="140px" Width="375px"></asp:TextBox><br />
                 <br />
                 <br />
-                <asp:Button ID="btnSubmit" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" OnClick="btnSubmit_Click" /><br />
-                <br />
             </div>
+
 
 
             <div class="col-md-6">
@@ -165,5 +166,9 @@
 
             </div>
         </div>
+        <div class="span2 text-center">
+            <asp:Button ID="Button1" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+        </div>
     </div>
+
 </asp:Content>

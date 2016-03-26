@@ -26,8 +26,6 @@
                 <br />
 
 
-
-
                 <asp:Label ID="Label6" runat="server" Text="Other Topic:  "></asp:Label>
                 <asp:TextBox ID="TextBox3" placeholder="eg: Syllabus" class="textboxAbdullah" runat="server"></asp:TextBox>
                 <br />
@@ -106,11 +104,6 @@
             <input name="optStatus" type="radio" value="Inactive" />
                 Inactive<br />
                 <br />
-
-
-                <asp:Button ID="btnSubmit" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
-
-
             </div>
 
 
@@ -156,6 +149,11 @@
 
 
             </div>
+        </div>
+        <div class="span2 text-center">
+            <br />
+            <br />
+            <asp:Button ID="Button1" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
         </div>
     </div>
 </asp:Content>

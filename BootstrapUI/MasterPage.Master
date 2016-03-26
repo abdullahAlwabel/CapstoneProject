@@ -92,7 +92,7 @@
         <li><a href="Admin.aspx">ADMINISTRATION</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="LoginDetail.aspx"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="Login.aspx"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>

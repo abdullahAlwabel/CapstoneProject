@@ -95,6 +95,7 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-2.2.0.min.js" />
     <Content Include="js\npm.js" />
+    <Content Include="Login.aspx" />
     <Content Include="ManageCategories.aspx" />
     <Content Include="ManageTopics.aspx" />
     <Content Include="AddUser.aspx" />
@@ -105,11 +106,9 @@
     <Content Include="ConferencePresentationDetails.aspx" />
     <Content Include="DepartmentProgramDetails.aspx" />
     <Content Include="PublicationDetails.aspx" />
-    <Content Include="SwipeScreen.aspx" />
     <Content Include="SearchActivity.aspx" />
     <Content Include="AttendeesByActivity.aspx" />
     <Content Include="ManageActivities.aspx" />
-    <Content Include="LoginDetail.aspx" />
     <Content Include="SwipeScreenLatest.aspx" />
     <Content Include="WorkshopDetails.aspx" />
   </ItemGroup>
@@ -155,6 +154,13 @@
     </Compile>
     <Compile Include="ExportContentPage.aspx.designer.cs">
       <DependentUpon>ExportContentPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManageCategories.aspx.cs">
       <DependentUpon>ManageCategories.aspx</DependentUpon>
@@ -227,13 +233,6 @@
     <Compile Include="PublicationDetails.aspx.designer.cs">
       <DependentUpon>PublicationDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SwipeScreen.aspx.cs">
-      <DependentUpon>SwipeScreen.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SwipeScreen.aspx.designer.cs">
-      <DependentUpon>SwipeScreen.aspx</DependentUpon>
-    </Compile>
     <Compile Include="SearchActivity.aspx.cs">
       <DependentUpon>SearchActivity.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -254,13 +253,6 @@
     </Compile>
     <Compile Include="ManageActivities.aspx.designer.cs">
       <DependentUpon>ManageActivities.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="LoginDetail.aspx.cs">
-      <DependentUpon>LoginDetail.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LoginDetail.aspx.designer.cs">
-      <DependentUpon>LoginDetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="SwipeScreenLatest.aspx.cs">
       <DependentUpon>SwipeScreenLatest.aspx</DependentUpon>

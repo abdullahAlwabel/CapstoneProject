@@ -11,41 +11,42 @@
                        <tr>
                            <td>
                            <h2>Activity Category:</h2>
+                               <asp:Label ID="lblWarning" runat="server" ForeColor="Red"></asp:Label>
                                </td>
                        </tr>
                        <tr>
                            <td>
-                               <p><input name="optCategory" type="radio" value="Active" /> <asp:Label runat="server" Text="Consultation"></asp:Label></p>
+                               <p><input name="optCategory" type="radio" value="Consultation" /> <asp:Label runat="server" Text="Consultation"></asp:Label></p>
                            </td>                   
                        </tr>
                        <tr>
                            <td>
-                               <p><input name="optCategory" type="radio" value="Active" /> <asp:Label runat="server" Text="Workshop"></asp:Label></p>
+                               <p><input name="optCategory" type="radio" value="Workshop" /> <asp:Label runat="server" Text="Workshop"></asp:Label></p>
                            </td>                   
                        </tr>
                        <tr>
                            <td>
-                               <p><input name="optCategory" type="radio" value="Active" /> <asp:Label runat="server" Text="Conference"></asp:Label></p>
+                               <p><input name="optCategory" type="radio" value="Conference" /> <asp:Label runat="server" Text="Conference"></asp:Label></p>
                            </td>                   
                        </tr>
                        <tr>
                            <td>
-                               <p><input name="optCategory" type="radio" value="Active" /> <asp:Label runat="server" Text="Publication"></asp:Label></p>
+                               <p><input name="optCategory" type="radio" value="Publication" /> <asp:Label runat="server" Text="Publication"></asp:Label></p>
                            </td>                   
                        </tr>
                        <tr>
                            <td>
-                               <p><input name="optCategory" type="radio" value="Active" /> <asp:Label runat="server" Text="Department Program"></asp:Label></p>
+                               <p><input name="optCategory" type="radio" value="Department Program" /> <asp:Label runat="server" Text="Department Program"></asp:Label></p>
                            </td>                   
                        </tr>
                        <tr>
                            <td>
-                               <p><input name="optCategory" type="radio" value="Active" /> <asp:Label runat="server" Text="Comittee Work"></asp:Label></p>
+                               <p><input name="optCategory" type="radio" value="Comittee Work" /> <asp:Label runat="server" Text="Comittee Work"></asp:Label></p>
                            </td>                   
                        </tr>
                        <tr>
                            <td>
-                               <asp:Button class="btn btn-primary btn-lg" runat="server" Text="Submit" />
+                               <asp:Button class="btn btn-primary btn-lg" runat="server" Text="Submit" OnClick="Unnamed_Click" />
                            </td>
                        </tr>
                    </table>

@@ -98,8 +98,7 @@
                 Inactive<br />
                 <br />
 
-                <asp:Button ID="btnSubmit" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
-                <br />
+                
             </div>
 
 
@@ -143,6 +142,11 @@
 
                 <br />
             </div>
+        </div>
+        <div class="span2 text-center">
+            <br />
+            <br />
+            <asp:Button ID="Button1" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
         </div>
     </div>
 </asp:Content>

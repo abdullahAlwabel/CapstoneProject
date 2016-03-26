@@ -7,6 +7,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container-fluid row" style="padding-top: 3%">
         <div class="row">
+
             <div class="col-md-6">
                 <h1>Conference Presentation Details: </h1>
                 <br />
@@ -88,50 +89,58 @@
                 Active
             <input name="optStatus" type="radio" value="Inactive" />
                 Inactive<br />
+               
+            </div>
+
+            <div class="col-md-6">
+
+
+                <h1>Select Available Presenters: </h1>
+                <br />
+                <asp:DropDownList ID="ddlPresenters" runat="server" class="textboxAbdullah" Height="23px" Width="150px">
+                    <asp:ListItem>Select: </asp:ListItem>
+                    <asp:ListItem>Donna-Marie Peter</asp:ListItem>
+                    <asp:ListItem>Pete Watkins</asp:ListItem>
+                    <asp:ListItem>Simuelle Myers</asp:ListItem>
+                    <asp:ListItem>Johanna Inman</asp:ListItem>
+                    <asp:ListItem>Robert Pred</asp:ListItem>
+                    <asp:ListItem>Ina Calligaro</asp:ListItem>
+                    <asp:ListItem>Terry Halbert</asp:ListItem>
+                    <asp:ListItem>David Ingram</asp:ListItem>
+                    <asp:ListItem>Shanta Hattikudur</asp:ListItem>
+                    <asp:ListItem>Stephanie Fiore</asp:ListItem>
+                </asp:DropDownList><br />
                 <br />
 
-                <asp:Button ID="btnSubmit" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" OnClick="btnSubmit_Click" /><br />
+                <asp:Label ID="lblShow" runat="server" Text="If presenter is not listed above, add from below: "></asp:Label><br />
+
+                <br />
+                <asp:Label ID="lblFN" runat="server" Text="First Name: "></asp:Label><asp:TextBox placeholder="eg: John" class="textboxAbdullah" ID="txtFN" runat="server"></asp:TextBox>
+                <br />
+                <br />
+                <asp:Label ID="lblLN" runat="server" Text="Last Name: "></asp:Label><asp:TextBox placeholder="eg: Smith" class="textboxAbdullah" ID="txtLN" runat="server"></asp:TextBox>
+                <br />
+                <br />
+                <asp:Label ID="lblID" runat="server" Text="AccessnetID: "></asp:Label><asp:TextBox placeholder="eg: tud12345" class="textboxAbdullah" ID="txtID" runat="server"></asp:TextBox>
+                <br />
+                <br />
+                <asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label><asp:TextBox placeholder="eg: tud12345@temple.edu" class="textboxAbdullah" ID="txtEmail" runat="server"></asp:TextBox>
+
+                <br />
+                <br />
+                <a href="#" class="center">Add Additional Presenters</a><br />
+
+
+
+                <asp:TextBox ID="txtNotes" runat="server" placeholder="Enter notes here" class="textboxAbdullah" TextMode="multiline" Height="140px" Width="375px"></asp:TextBox><br />
                 <br />
             </div>
 
-
-
-
-            <div class ="col-md-6">
-            <h1>Select Available Presenters: </h1>
-            <br />
-            <asp:DropDownList ID="ddlPresenters" runat="server" class="textboxAbdullah" Height="23px" Width="150px">
-                <asp:ListItem>Select: </asp:ListItem>
-                <asp:ListItem>Donna-Marie Peter</asp:ListItem>
-                <asp:ListItem>Pete Watkins</asp:ListItem>
-                <asp:ListItem>Simuelle Myers</asp:ListItem>
-                <asp:ListItem>Johanna Inman</asp:ListItem>
-                <asp:ListItem>Robert Pred</asp:ListItem>
-                <asp:ListItem>Ina Calligaro</asp:ListItem>
-                <asp:ListItem>Terry Halbert</asp:ListItem>
-                <asp:ListItem>David Ingram</asp:ListItem>
-                <asp:ListItem>Shanta Hattikudur</asp:ListItem>
-                <asp:ListItem>Stephanie Fiore</asp:ListItem>
-            </asp:DropDownList><br />
-            <br />
-
-            <asp:Label ID="lblShow" runat="server" Text="If presenter is not listed above, add from below: "></asp:Label><br />
-
-            <br />
-            <asp:Label ID="lblFN" runat="server" Text="First Name: "></asp:Label><asp:TextBox placeholder="eg: John" class="textboxAbdullah" ID="txtFN" runat="server"></asp:TextBox>
-            <br /><br /><asp:Label ID="lblLN" runat="server" Text="Last Name: "></asp:Label><asp:TextBox placeholder="eg: Smith" class="textboxAbdullah" ID="txtLN" runat="server"></asp:TextBox>
-            <br /><br /><asp:Label ID="lblID" runat="server" Text="AccessnetID: "></asp:Label><asp:TextBox placeholder="eg: tud12345" class="textboxAbdullah" ID="txtID" runat="server"></asp:TextBox>
-            <br /><br /><asp:Label ID="lblEmail" runat="server" Text="Email: "></asp:Label><asp:TextBox placeholder="eg: tud12345@temple.edu" class="textboxAbdullah" ID="txtEmail" runat="server"></asp:TextBox>
-
-            <br />
-            <br />
-            <a href="#" class="center">Add Additional Presenters</a><br />
-
-
-
-            <asp:TextBox ID="txtNotes" runat="server" placeholder="Enter notes here" class="textboxAbdullah" TextMode="multiline" Height="140px" Width="375px"></asp:TextBox><br />
-            <br />
-</div>
+            
+        </div>
+        <div class="span2 text-center">
+            <br /><br /><asp:Button ID="Button1" class="defaultButton btnHover btnDEf" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
         </div>
     </div>
+    
 </asp:Content>
