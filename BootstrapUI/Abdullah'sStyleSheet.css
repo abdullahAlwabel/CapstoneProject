@@ -21,6 +21,11 @@ width: 220px;
 height: 25px;
 }
 
+.DescribtionBox {
+    width:600px;
+    height:150px;
+}
+
 
 .emailContent {
     width:800px;

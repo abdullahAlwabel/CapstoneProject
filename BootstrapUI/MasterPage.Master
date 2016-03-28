@@ -84,7 +84,7 @@
       </button>
       <a class="navbar-brand" style="color:white; font-family: 'Open Sans', sans-serif;" href="#">CAT Activity Tracking</a>
     </div>
-    <div class="collapse navbar-collapse pull-right" id="myNavbar">
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="Home.aspx">HOME</a></li>
           <li><a href="SearchActivity.aspx">ACTIVITIES</a></li>

@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="SearchActivity.aspx.cs" Inherits="BootstrapUI.WebForm7" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="Abdullah'sStyleSheet.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
@@ -23,10 +24,10 @@
                                 <asp:CheckBox runat="server"></asp:CheckBox><asp:Label runat="server" Text=" Comittee Work"></asp:Label></p>
                 <h3>Date</h3>
                 <asp:Label  runat="server" Text="Start Date"></asp:Label>
-                <asp:TextBox class="input-sm" runat="server" ></asp:TextBox>
-                <br />
-                <asp:Label runat="server" Text="End Date"></asp:Label>
-                <asp:TextBox class="input-sm" runat="server" ></asp:TextBox>
+                <asp:TextBox class="textboxAbdullah" TextMode="Date" runat="server" ></asp:TextBox>
+                <br /><br />
+                <asp:Label runat="server" TextMode="Date" Text="End Date"></asp:Label>
+                <asp:TextBox class="textboxAbdullah" TextMode="Date" runat="server" ></asp:TextBox>
                 <h3>Status</h3>
                 <input name="optCategory" type="radio" value="Active" /> <asp:Label runat="server" Text="Active"></asp:Label>
                 <br />
@@ -44,13 +45,20 @@
                     <!-- /input-group -->
                 </div>
                 <div class="col-sm-8">
-                    <asp:Button class="btn btn-primary" runat="server" Text="View Details" />
-                    <asp:Button class="btn btn-primary" runat="server" Text="Start Tracking" />
-                    <asp:Button class="btn btn-primary" runat="server" Text="Edit Activity" />
-
+                    <asp:Button ID="Button1" class="btn btn-primary" runat="server" Text="Start Tracking" OnClick="Unnamed_Click1" />
+                    <asp:Button ID="Button2" class="btn btn-primary" runat="server" Text="Edit Activity" OnClick="Unnamed_Click2" />
+                    <asp:Button class="btn btn-primary" runat="server" Text="View Details" OnClick="Unnamed_Click" />
                 </div> 
-                <br />
-                 <asp:GridView ID="gvActivities" CssClass="table table-hover table-striped col-sm-9" GridLines="None" AutoGenerateColumns="True" runat="server"></asp:GridView>      
+                <br /><br />
+                 <asp:GridView ID="gvActivities" CssClass="table table-hover table-striped col-sm-9" GridLines="None" runat="server">
+                     <Columns>
+                         <asp:TemplateField HeaderText="Select">
+                             <ItemTemplate>
+                                 <asp:CheckBox ID="CheckBox1" runat="server" />
+                             </ItemTemplate>
+                         </asp:TemplateField>
+                     </Columns>
+                </asp:GridView>      
             </div>
         </div>
             </div>

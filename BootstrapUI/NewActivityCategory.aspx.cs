@@ -7,10 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace BootstrapUI
 {
-    public partial class Committee_Work : System.Web.UI.Page
+    public partial class NewActivityCategory : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+        }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("CollectFeedback.aspx");
 
         }
     }

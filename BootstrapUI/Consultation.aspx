@@ -45,7 +45,7 @@
 
 
                 <asp:Label ID="Label1" runat="server" Text="Date: "></asp:Label>
-                <asp:TextBox ID="txtDate" placeholder="eg: 3/5/16" class="textboxAbdullah" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtDate" TextMode="Date" class="textboxAbdullah" runat="server"></asp:TextBox>
                 <br />
                 <br />
 

@@ -18,8 +18,6 @@
             background-image: url("http://pafamily.org/wp-content/uploads/2015/08/Temple-University-flag.jpg");
         }
     </style>
-
-
 </head>
 
 <body>

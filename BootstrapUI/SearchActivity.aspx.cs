@@ -29,5 +29,20 @@ namespace BootstrapUI
             gvActivities.DataSource = dt;
             gvActivities.DataBind();
         }
+
+        protected void Unnamed_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Unnamed_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("SwipeScreenLatest.aspx");
+        }
+
+        protected void Unnamed_Click2(object sender, EventArgs e)
+        {
+            Response.Redirect("CommitteeWork.aspx");
+        }
     }
 }

@@ -11,15 +11,15 @@
                     <p><asp:Label runat="server" Text="Activity Category "></asp:Label><asp:TextBox class="input-sm" runat="server"></asp:TextBox></p>
                     <p>
                         <asp:Label runat="server" Text="Has Series "></asp:Label><asp:CheckBox runat="server"></asp:CheckBox> <span> &nbsp; &nbsp;   </span> <asp:Label runat="server" Text=" Status "></asp:Label><input name="optCategory" type="radio" value="Active" /><asp:Label runat="server" Text="Active "></asp:Label><input name="optCategory" type="radio" value="Inactive " /> <asp:Label runat="server" Text="Inactive"></asp:Label></p>
-                    <div class="col-md-3"><asp:Label runat="server"  Text="Date "></asp:Label><asp:TextBox class="input-sm" runat="server"></asp:TextBox></div>
-                    <div class="col-md-3"><asp:Label runat="server" Text="Time "></asp:Label><asp:TextBox class="input-sm" runat="server"></asp:TextBox></div>
+                    <br /><div ><asp:Label runat="server"  Text="Date/Time: "></asp:Label><asp:TextBox ID="TextBox1" class="input-sm" TextMode="DateTimeLocal" runat="server" ></asp:TextBox></div>
+                    
                 </div>
             </div>
             
-        </div>
+        </div><br /><br />
         <div class="row">
             <div class="col-md-12">
-                <h2>Participant Attendence</h2>
+                <div class="col-md-6"><h2>Participant Attendence</h2></div>
                    <asp:GridView ID="gvActivities" CssClass="table table-hover table-striped col-sm-9" GridLines="None" AutoGenerateColumns="True" runat="server"></asp:GridView>   
             </div>
         </div>

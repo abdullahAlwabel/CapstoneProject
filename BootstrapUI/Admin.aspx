@@ -32,7 +32,7 @@
             </div>
             <div class="col-xs-3 col-sm-9">
                 <h2 class="sub-header">Manage Users<span>
-                    <asp:Button ID="btnAddUser" runat="server" Text="Add User" OnClick="btnAddUser_Click" /></span></h2>
+                    <asp:Button ID="btnAddUser" runat="server" CssClass="btn btn-primary" Text="Add User" OnClick="btnAddUser_Click" /></span></h2>
                
                 <table class="table table-striped">
                     <thead>

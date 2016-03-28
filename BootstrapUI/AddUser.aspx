@@ -16,7 +16,7 @@
 
             <div class="col-sm-9">
                 <div class="form-horizontal" role="form">
-                    <h3 class="sub-header">Add User</h3>
+                    <h3 class="sub-header text-center">Add User</h3>
                     <div class="form-group">
                         <div class="row">
                             <div class="col-md-6  col-md-offset-1">
@@ -35,7 +35,7 @@
 
                             <label class="control-label col-sm-2" for="text">First Name:</label>
                             <div class="col-sm-10">
-                                <input  class="form-control" placeholder="First Name" required>
+                                <input class="form-control" placeholder="First Name" required>
                             </div>
                         </div>
                         <div class="form-group">
@@ -61,13 +61,13 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-sm-10">
-                            <asp:Button ID="btnSubmit" CssClass="btn btn-lg" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+                        <div class="text-center">
+                            <asp:Button ID="btnSubmit" CssClass="btn btn-primary" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
                         </div>
                     </div>
                 </div>
-                </div>
-            
+            </div>
+
         </div>
     </div>
 </asp:Content>

@@ -46,6 +46,13 @@
                        </tr>
                        <tr>
                            <td>
+                               <p><input name="optCategory" type="radio" value="New Category" /> <asp:Label ID="Label1" runat="server" Text="New Category"></asp:Label></p>
+
+                           </td>
+
+                       </tr>
+                       <tr>
+                           <td>
                                <asp:Button class="btn btn-primary btn-lg" runat="server" Text="Submit" OnClick="Unnamed_Click" />
                            </td>
                        </tr>

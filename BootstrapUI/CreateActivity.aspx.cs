@@ -42,6 +42,10 @@ namespace BootstrapUI
                 {
                     Response.Redirect("CommitteeWork.aspx");
                 }
+                else if (Request.Form["optCategory"] == "New Category")
+                {
+                    Response.Redirect("NewActivityCategory.aspx");
+                }
             }
             else
             {
