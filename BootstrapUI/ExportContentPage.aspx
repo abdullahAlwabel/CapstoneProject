@@ -36,7 +36,7 @@
                 <asp:Label runat="server" Text="Inactive"></asp:Label>
             </div>
             <div class="col-sm-9">
-                <h1>Search Activities</h1>
+                <h1>Select Activities</h1>
 
                 <div class="col-sm-4">
                     <div class="input-group">

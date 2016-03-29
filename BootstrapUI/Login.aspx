@@ -15,7 +15,7 @@
 
     <style>
         body {
-            background-image: url("http://pafamily.org/wp-content/uploads/2015/08/Temple-University-flag.jpg");
+            background-image: url("images/RedDiamondPattern.jpg");
         }
     </style>
 </head>

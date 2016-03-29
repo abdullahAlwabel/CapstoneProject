@@ -33,7 +33,7 @@
                     <div class="panel-body">
                         <ul class="list-group borderless">
                             <li class="list-group-item"><a href="CreateActivity.aspx"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Create Activity</a></li>
-                            <li class="list-group-item"><a href="SearchActivity.aspx"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>&nbsp;Track an Activity</a></li>
+                            <li class="list-group-item"><a href="SearchActivity.aspx"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>&nbsp;Track Attendance</a></li>
                             <li class="list-group-item"><a href="ExportContentPage.aspx"><span class="glyphicon glyphicon-signal" aria-hidden="true"></span>&nbsp;Attendence Information</a></li>
                             <li class="list-group-item"><a href="Admin.aspx"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>&nbsp;Administration</a></li>
                         </ul>

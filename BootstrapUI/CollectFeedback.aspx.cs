@@ -16,7 +16,7 @@ namespace BootstrapUI
 
         protected void Unnamed_Click(object sender, EventArgs e)
         {
-            lblShow.Text = "Email Send!";
+            lblShow.Text = "Survey line assigned!";
         }
     }
 }

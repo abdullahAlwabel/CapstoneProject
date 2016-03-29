@@ -11,11 +11,11 @@
             <div class="col-md-6">
                 <h1>Conference Presentation Details: </h1>
                 <br />
-                <asp:Label ID="Label1" runat="server" Text="AccessnetID: " Width="89px"></asp:Label>
+                <asp:Label ID="reqireField" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="Label1" runat="server" Text="AccessnetID: " Width="89px"></asp:Label>
                 <asp:TextBox ID="TextBox1" class="textboxAbdullah" placeholder="eg: tud12345" runat="server"></asp:TextBox>
                 <br />
                 <br />
-                <asp:Label ID="Label2" runat="server" Text="Conference Title: " Width="117px" Height="19px"></asp:Label>
+                <asp:Label ID="Label6" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="Label2" runat="server" Text="Conference Title: " Width="117px" Height="19px"></asp:Label>
                 <asp:TextBox ID="TextBox2" class="textboxAbdullah" placeholder="eg: Conference" runat="server"></asp:TextBox>
                 <br />
                 <br />
@@ -32,11 +32,11 @@
                 <br />
                 <br />
 
-                <asp:Label ID="lblDate" runat="server" Text="Conference Date: " Width="116px"></asp:Label>
+                <asp:Label ID="Label7" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblDate" runat="server" Text="Conference Date: " Width="116px"></asp:Label>
                 <asp:TextBox ID="txtDate" TextMode="Date" class="textboxAbdullah" runat="server"></asp:TextBox>
                 <br />
                 <br />
-                <asp:Label ID="lblStartTime" runat="server" Text="Start Time:"></asp:Label>
+                <asp:Label ID="Label8" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblStartTime" runat="server" Text="Start Time:"></asp:Label>
                 <asp:DropDownList ID="ddlStartTime" class="textboxAbdullah" runat="server">
                     <asp:ListItem>8:00AM</asp:ListItem>
                     <asp:ListItem>8:30AM</asp:ListItem>
@@ -60,7 +60,7 @@
                 </asp:DropDownList><br />
                 <br />
 
-                <asp:Label ID="lblEndTime" runat="server" Text="End Time: "></asp:Label>
+                <asp:Label ID="Label9" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblEndTime" runat="server" Text="End Time: "></asp:Label>
                 <asp:DropDownList ID="ddlEndTime" class="textboxAbdullah" runat="server">
                     <asp:ListItem>8:00AM</asp:ListItem>
                     <asp:ListItem>8:30AM</asp:ListItem>
@@ -84,16 +84,21 @@
                 </asp:DropDownList><br />
                 <br />
 
-                <asp:Label ID="lblStatus" runat="server" Text="Status:  "></asp:Label>
-                <input name="optStatus" type="radio" value="Active" />
+                <asp:Label ID="Label10" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblStatus" runat="server" Text="Status:  "></asp:Label>
+                <input name="optStatus" checked="checked" type="radio" value="Active" />
                 Active
             <input name="optStatus" type="radio" value="Inactive" />
                 Inactive<br />
+
+                <br />
+                <asp:Label ID="lblDesc" CssClass="text-center" runat="server" Text="Description: "></asp:Label><br />
+                <asp:TextBox ID="txtDesc" placeholder="Enter description here" runat="server" TextMode="multiline" class="textboxAbdullah" Height="140px" Width="375px"></asp:TextBox><br />
+                <br />
+                <br />
                
             </div>
 
             <div class="col-md-6">
-
 
                 <h1>Select Available Presenters: </h1>
                 <br />
@@ -112,7 +117,7 @@
                 </asp:DropDownList><br />
                 <br />
 
-                <asp:Label ID="lblShow" runat="server" Text="If presenter is not listed above, add from below: "></asp:Label><br />
+                <asp:Label ID="lblShow" runat="server" Text="Add Additional Presenter: "></asp:Label><asp:Button ID="Button3" CssClass="btn btn-primary" runat="server" Text="Add" /><br />
 
                 <br />
                 <asp:Label ID="lblFN" runat="server" Text="First Name: "></asp:Label><asp:TextBox placeholder="eg: John" class="textboxAbdullah" ID="txtFN" runat="server"></asp:TextBox>
@@ -128,7 +133,7 @@
 
                 <br />
                 <br />
-                <a href="#" class="center">Add Additional Presenters</a><br />
+                
 
 
 

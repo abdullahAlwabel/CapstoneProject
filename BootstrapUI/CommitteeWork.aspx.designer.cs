@@ -13,6 +13,15 @@ namespace BootstrapUI {
     public partial class CommitteeWork {
         
         /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+        
+        /// <summary>
         /// lblMeetingName control.
         /// </summary>
         /// <remarks>
@@ -31,6 +40,15 @@ namespace BootstrapUI {
         protected global::System.Web.UI.WebControls.TextBox txtMeetingName;
         
         /// <summary>
+        /// reqireField control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label reqireField;
+        
+        /// <summary>
         /// lblFrequency control.
         /// </summary>
         /// <remarks>
@@ -40,6 +58,15 @@ namespace BootstrapUI {
         protected global::System.Web.UI.WebControls.Label lblFrequency;
         
         /// <summary>
+        /// Label2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
+        
+        /// <summary>
         /// lblNumbersOfMeeting control.
         /// </summary>
         /// <remarks>
@@ -47,6 +74,15 @@ namespace BootstrapUI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblNumbersOfMeeting;
+        
+        /// <summary>
+        /// Label3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
         /// lblDate control.
@@ -67,6 +103,15 @@ namespace BootstrapUI {
         protected global::System.Web.UI.WebControls.TextBox txtDate;
         
         /// <summary>
+        /// Label4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label4;
+        
+        /// <summary>
         /// lblStartTime control.
         /// </summary>
         /// <remarks>
@@ -85,6 +130,15 @@ namespace BootstrapUI {
         protected global::System.Web.UI.WebControls.DropDownList ddlStartTime;
         
         /// <summary>
+        /// Label5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label5;
+        
+        /// <summary>
         /// lblEndTime control.
         /// </summary>
         /// <remarks>
@@ -101,6 +155,15 @@ namespace BootstrapUI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlEndTime;
+        
+        /// <summary>
+        /// Label6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
         /// lblStatus control.
@@ -146,6 +209,15 @@ namespace BootstrapUI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblShow;
+        
+        /// <summary>
+        /// Button3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button3;
         
         /// <summary>
         /// lblFN control.

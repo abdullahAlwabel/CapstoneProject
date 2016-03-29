@@ -18,12 +18,12 @@
 
            <div class="col-sm-offset-5">
 
-                <h2> Add a New Activity Category: </h2>
+                <h2> Add New Activity Category: </h2>
               <br />
            <asp:TextBox ID="txtNewCategory" CssClass="textboxAbdullah emailURL_And_SubjectLine" placeholder="new category name" runat="server"></asp:TextBox>
               <br />
               <br />
-               <h2> Category Describtion: </h2>
+               <h2> Category Description: </h2>
            <asp:TextBox ID="txtConsultationMeetingType" CssClass="textboxAbdullah DescribtionBox" placeholder="Describe the new category" runat="server"></asp:TextBox>
                <br />
                <br />

@@ -10,12 +10,12 @@
             <div class="col-md-6">
                 <h1>Workshop Details： </h1>
                 <br />
-                <asp:Label ID="Label1" runat="server" Text="Workshop Name: "></asp:Label>
+                <asp:Label ID="reqireField" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="Label1" runat="server" Text="Workshop Name: "></asp:Label>
                 <asp:TextBox ID="TextBox1" placeholder="eg: workshop" class="textboxAbdullah" runat="server"></asp:TextBox>
                 <br />
                 <br />
 
-                <asp:Label ID="Label2" runat="server" Text="Numbers of Meeting: "></asp:Label>
+                <asp:Label ID="Label5" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="Label2" runat="server" Text="Numbers of Meeting: "></asp:Label>
                 <asp:TextBox ID="TextBox2" placeholder="eg: 1" class="textboxAbdullah" runat="server"></asp:TextBox>
                 <br />
                 <br />
@@ -37,13 +37,13 @@
                 <br />
 
 
-                <asp:Label ID="lblDate" runat="server" Text="Date: "></asp:Label>
+                <asp:Label ID="Label6" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblDate" runat="server" Text="Date: "></asp:Label>
                 <asp:TextBox ID="txtDate" TextMode="Date" runat="server" class="textboxAbdullah"></asp:TextBox>
                 <br />
                 <br />
 
 
-                <asp:Label ID="lblStartTime" runat="server" Text="Start Time:"></asp:Label>
+                <asp:Label ID="Label8" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblStartTime" runat="server" Text="Start Time:"></asp:Label>
                 <asp:DropDownList ID="ddlStartTime" runat="server" class="textboxAbdullah">
                     <asp:ListItem>8:00AM</asp:ListItem>
                     <asp:ListItem>8:30AM</asp:ListItem>
@@ -67,7 +67,7 @@
                 </asp:DropDownList><br />
                 <br />
 
-                <asp:Label ID="lblEndTime" runat="server" Text="End Time: "></asp:Label>
+                <asp:Label ID="Label9" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblEndTime" runat="server" Text="End Time: "></asp:Label>
                 <asp:DropDownList ID="ddlEndTime" runat="server" class="textboxAbdullah">
                     <asp:ListItem>8:00AM</asp:ListItem>
                     <asp:ListItem>8:30AM</asp:ListItem>
@@ -91,14 +91,18 @@
                 </asp:DropDownList><br />
                 <br />
 
-                <asp:Label ID="lblStatus" runat="server" Text="Status:  "></asp:Label>
-                <input name="optStatus" type="radio" class="textboxAbdullah" value="Active" />
+                <asp:Label ID="Label10" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblStatus" runat="server" Text="Status:  "></asp:Label>
+                <input name="optStatus" checked="checked" type="radio" class="textboxAbdullah" value="Active" />
                 Active
             <input name="optStatus" type="radio" value="Inactive" />
                 Inactive<br />
-                <br />
-
                 
+
+                <br />
+                <asp:Label ID="lblDesc" CssClass="text-center" runat="server" Text="Description: "></asp:Label><br />
+                <asp:TextBox ID="txtDesc" placeholder="Enter description here" runat="server" TextMode="multiline" class="textboxAbdullah" Height="140px" Width="375px"></asp:TextBox><br />
+                <br />
+                <br />
             </div>
 
 
@@ -119,7 +123,7 @@
                 </asp:DropDownList><br />
                 <br />
 
-                <asp:Label ID="lblShow" runat="server" Text="If facilitator is not listed above, add from below: "></asp:Label><br />
+                <asp:Label ID="Label7" runat="server" Text="Add Additional Author: "></asp:Label><asp:Button ID="Button3" CssClass="btn btn-primary" runat="server" Text="Add" /><br />
 
                 <br />
                 <asp:Label ID="lblFN" runat="server" Text="First Name: "></asp:Label><asp:TextBox placeholder="eg: John" class="textboxAbdullah" ID="txtFN" runat="server"></asp:TextBox>
@@ -135,7 +139,7 @@
 
                 <br />
                 <br />
-                <a href="#" class="center">Add Additional Facilitators</a><br />
+
 
                 <asp:TextBox ID="txtNotes" runat="server" placeholder="Enter notes here" class="textboxAbdullah" TextMode="multiline" Height="140px" Width="375px"></asp:TextBox><br />
                 <br />

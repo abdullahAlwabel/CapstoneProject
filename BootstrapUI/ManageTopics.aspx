@@ -20,13 +20,13 @@
 
           <div class="col-sm-offset-5">
 
-                <h2> Add a New Consultation Topic: </h2>
+                <h2> Add New Consultation Topic: </h2>
               <br />
            <asp:TextBox ID="txtConsultationTopic" CssClass="textboxAbdullah emailURL_And_SubjectLine" placeholder="new consultation topic" runat="server"></asp:TextBox>
               <asp:Button ID="btnAddTopic" runat="server" class="defaultButton btnHover btnDEf" Text="Add" Height="55px" Width="115px" />
               <br />
               <br />
-               <h2> Add a New Consultation Meeting Type: </h2>
+               <h2> Add New Consultation Meeting Type: </h2>
            <asp:TextBox ID="txtConsultationMeetingType" CssClass="textboxAbdullah emailURL_And_SubjectLine" placeholder="new consultation meeting type" runat="server"></asp:TextBox>
            <asp:Button ID="btnAddMeetingType" runat="server" class="defaultButton btnHover btnDEf" Text="Add" Height="55px" Width="115px" />
 

@@ -14,11 +14,13 @@
             <div class="col-md-6">
                 <h1>Committee Work Details: </h1>
                 <br />
-                <asp:Label ID="lblMeetingName" runat="server" Text="Committee Meeting Name: "></asp:Label>
+                <asp:Label ID="Label1" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblMeetingName" runat="server" Text="Committee Meeting Name: "></asp:Label>
                 <asp:TextBox ID="txtMeetingName" placeholder="eg: Committee" class="textboxAbdullah" runat="server" Width="160px"></asp:TextBox><br />
                 <br />
 
-                <asp:Label ID="lblFrequency" runat="server" Text="Frequency of meetings: "></asp:Label>
+                <asp:Label ID="reqireField" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblFrequency" runat="server" Text="Frequency of meetings: "></asp:Label>
+
+                
 
                 <input name="optFrequency" type="radio" value="Active" />
                 Daily
@@ -30,12 +32,12 @@
                 Annually<br />
                 <br />
 
-                <asp:Label ID="lblNumbersOfMeeting" runat="server" Text="Number of meetings: "></asp:Label>
+                <asp:Label ID="Label2" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblNumbersOfMeeting" runat="server" Text="Number of meetings: "></asp:Label>
 
                 <input name="optNumbersOfMeeting" type="radio" value="Active" />
                 1
             <input name="optNumbersOfMeeting" type="radio" value="Active" />
-                2
+                2   
             <input name="optNumbersOfMeeting" type="radio" value="Active" />
                 3
             <input name="optNumbersOfMeeting" type="radio" value="Active" />
@@ -55,12 +57,12 @@
                 <br />
 
 
-                <asp:Label ID="lblDate" runat="server" Text="Date: "></asp:Label>
+                <asp:Label ID="Label3" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblDate" runat="server" Text="Date: "></asp:Label>
                 <asp:TextBox ID="txtDate" TextMode="Date" class="textboxAbdullah" runat="server"></asp:TextBox>
                 <br />
                 <br />
 
-                <asp:Label ID="lblStartTime" runat="server" Text="Start Time:"></asp:Label>
+                <asp:Label ID="Label4" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblStartTime" runat="server" Text="Start Time:"></asp:Label>
                 <asp:DropDownList ID="ddlStartTime" class="textboxAbdullah" runat="server">
                     <asp:ListItem>8:00AM</asp:ListItem>
                     <asp:ListItem>8:30AM</asp:ListItem>
@@ -84,7 +86,7 @@
                 </asp:DropDownList><br />
                 <br />
 
-                <asp:Label ID="lblEndTime" runat="server" Text="End Time: "></asp:Label>
+                <asp:Label ID="Label5" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblEndTime" runat="server" Text="End Time: "></asp:Label>
                 <asp:DropDownList ID="ddlEndTime" class="textboxAbdullah" runat="server">
                     <asp:ListItem>8:00AM</asp:ListItem>
                     <asp:ListItem>8:30AM</asp:ListItem>
@@ -108,14 +110,14 @@
                 </asp:DropDownList><br />
                 <br />
 
-                <asp:Label ID="lblStatus" runat="server" Text="Status:  "></asp:Label>
-                <input name="optStatus" type="radio" value="Active" />
+                <asp:Label ID="Label6" runat="server" ForeColor="red" Text="*"></asp:Label><asp:Label ID="lblStatus" runat="server" Text="Status:  "></asp:Label>
+                <input name="optStatus" checked="checked" type="radio" value="Active" />
                 Active
             <input name="optStatus" type="radio" value="Inactive" />
                 Inactive<br />
                 <br />
 
-                <asp:Label ID="lblDesc" runat="server" Text="Committee Description: "></asp:Label><br />
+                <asp:Label ID="lblDesc" runat="server" Text="Description: "></asp:Label><br />
                 <asp:TextBox ID="txtDesc" placeholder="Enter description here" runat="server" TextMode="multiline" class="textboxAbdullah" Height="140px" Width="375px"></asp:TextBox><br />
                 <br />
                 <br />
@@ -141,7 +143,7 @@
                 </asp:DropDownList><br />
                 <br />
 
-                <asp:Label ID="lblShow" runat="server" Text="If facilitator is not listed above, add from below: "></asp:Label><br />
+                <asp:Label ID="lblShow" runat="server" Text="Add Additional Facilitator: "></asp:Label><asp:Button ID="Button3" CssClass="btn btn-primary" runat="server" Text="Add" /><br />
 
                 <br />
                 <asp:Label ID="lblFN" runat="server" Text="First Name: "></asp:Label><asp:TextBox placeholder="eg: John" class="textboxAbdullah" ID="txtFN" runat="server"></asp:TextBox>
@@ -157,7 +159,6 @@
 
                 <br />
                 <br />
-                <a href="#" class="center">Add Additional Facilitators</a>
 
                 <asp:TextBox ID="txtNotes" placeholder="eg: Enter notes here" runat="server" TextMode="multiline" class="textboxAbdullah" Height="140px" Width="375px"></asp:TextBox><br />
                 <br />
